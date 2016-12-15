@@ -19,15 +19,29 @@ layout: default
       <div class="essay-stuff">
         <h2 class="essay-writer">{{ page.author }}</h2>
         <div class="flickr-freesoul-essay-pic">
-<a id="pic" href="{{ page.portrait }}" title="{{ page.author }}"><img alt="" src="{{ page.image }}" width="420"></a>
-</div>
+          {% if page.portrait %}<a id="pic" href="{{ page.portrait }}" title="{{ page.author }}">{% endif %}
+            {% if page.image %}<img alt="" src="{{ page.image }}" width="420">{% endif %}
+          {% if page.portrait %}</a>{% endif %}
+        </div>
+
         <div class="essay-blurb">
+          {% if page.subtitle %}
+          {{ page.subtitle }}<br>
+          {% endif %}
+          {% if page.description %}
+          {{ page.description }}<br>
+          {% endif %}
+          {% if page.credit %}
+          {{ page.credit }}<br>
+          {% endif %}
+          {% if page.bio or page.links %}
           <blockquote>{{ page.bio }}<br>
             {% for link in page.links %}
             {{ link.name }}:
             <a href="{{ link.url }}">{{ link.url | remove_first: "https://" | remove_first: "http://" }}</a>
             {% endfor %}
           </blockquote>
+          {% endif %}
           {% if page.source %}
           <div class="blurbsource">{{ page.source }}</div>
           {% endif %}

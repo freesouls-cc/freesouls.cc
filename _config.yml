@@ -23,6 +23,10 @@ feed:
 collections:
   essays:
     output: true
+  book:
+    output: true
+  modelrelease:
+    output: true
 
 defaults:
   - scope:
@@ -31,6 +35,18 @@ defaults:
     values:
       layout: essay
       permalink: /essays/:title.html
+  - scope:
+      path: ""
+      type: book
+    values:
+      layout: page
+      permalink: /:title.html
+  - scope:
+      path: ""
+      type: modelrelease
+    values:
+      layout: page
+      permalink: /modelrelease/:title.html
   - scope:
       path: ""
       type: posts

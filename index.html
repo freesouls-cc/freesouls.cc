@@ -32,25 +32,30 @@ layout: default
         </div>
 
         <div id="pages">
-          {% for post in site.essays %}
+          {% for post in site.book %}
           <div class="entry">
-            <h4><a href="{{ post.url | prepend: site.url }}" title="{{ post.title | escape}}">{{ post.title }}&nbsp;&raquo;</a></h4>
+            <h4><a href="{{ post.url | prepend: site.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
             <div class="post">
-              {{ post.excerpt }}
+              {{ post.description }}
               <a href="{{ post.url }}" title="read on">read&nbsp;on&nbsp;&raquo;</a>
             </div>
           </div>
           {% endfor %}
         </div>
 
-<mt:Include widget="freesouls-essay-nav">
+        {% include essays_list.html %}
 
-  <mt:Pages folder="ModelRelease" limit="1">
-    <div class="entry">
-      <mt:PageExcerpt />
-      <div class="post"><a href="<mt:PagePermalink />" title="Freesouls Model Release Form">read on &raquo;</a></div>
-    </div>
-  </mt:Pages>
+        <div id="pages">
+          {% for post in site.modelrelease %}
+          <div class="entry">
+            <h4><a href="{{ post.url | prepend: site.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
+            <div class="post">
+              {{ post.description }}
+              <a href="{{ post.url }}" title="read on">read&nbsp;on&nbsp;&raquo;</a>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
 
       </div>
     </div>

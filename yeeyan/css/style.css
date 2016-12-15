@@ -1,0 +1,216 @@
+/*
+THEME NAME: Sandbox
+THEME URI: http://www.plaintxt.org/themes/sandbox/
+DESCRIPTION: Rich with powerful and dynamic semantic class selectors, Sandbox is a canvas for CSS artists
+VERSION: 1.6.1
+AUTHOR: <a href="http://andy.wordpress.com/">Andy Skelton</a> &amp; <a href="http://www.plaintxt.org/">Scott Allan Wallick</a>
+AUTHOR URI:
+TAGS: white, microformats, fixed-width, flexible-width, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar
+*/
+
+* {
+}
+
+body {
+width: 100%;
+background: #0099cc url(../images/bg-black-330.png) repeat-y left;
+margin: 0;
+padding: 0;
+}
+
+p {
+color: white;
+font-size: 14px;
+line-height: 24px;
+font-family: Helvetica, sans-serif;
+margin: 0 0 10px;
+}
+
+a {
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+p a{
+font-weight: bold;
+text-decoration: underline;
+}
+
+a:visited {
+color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+margin: 0 0 15px;
+}
+
+h1 {
+font-size: 24px;
+font-weight: bold;
+font-family: Helvetica, sans-serif;
+color: white;
+margin: 10px 0;
+}
+
+h2 {
+font-size: 20px;
+font-family: Helvetica, sans-serif;
+font-weight: normal;
+margin: 20px 0 10px 0;
+color: white;
+}
+
+h2 a {
+text-decoration: none;
+color: white;
+}
+
+.clear {
+clear: both;
+}
+
+#wrapper {
+width: 930px;
+float: left;
+}
+
+#sidebar {
+float: left;
+width: 330px;
+background: black url(../images/JoiIto.jpg) no-repeat;
+height: 500px;
+}
+
+#container {
+width: 600px;
+float: right;
+}
+
+#content {
+margin-left: 15px;
+}
+
+.post {
+
+}
+
+.date {
+font-size: 12px;
+line-height: 24px;
+font-family: Helvetica, sans-serif;
+color: white;
+}
+
+#container img {
+border: 2px white solid;
+}
+
+#still {
+border-top: 1px white dotted;
+margin-top: 20px;
+}
+
+#still a:visited {
+text-decoration: none;
+}
+
+ol {
+color: white;
+font-size: 12px;
+}
+
+ul {
+color: white;
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+line-height: 24px;
+}
+
+.nav {
+font-size: 14px;
+font-family: Helvetica, sans-serif;
+font-weight: bold;
+color: white;
+margin-top: 15px;
+padding-bottom: 20px;
+border-bottom: 1px white solid;
+}
+
+.nav a {
+color: white;
+}
+
+.link {
+width: 100%;
+border: 2px white solid;
+}
+
+.link p {
+margin: 15px 0 15px 20px; 
+}
+
+.link p a{
+font-weight: bold;
+color: white;
+}
+
+.entry-content a {
+color: white;
+font-weight: bold;
+}
+
+.sidebarlist {
+margin-top: 500px;
+margin-left: 15px;
+}
+
+.sidebarlist ol {
+color: white;
+}
+
+.sidebarlist ol li p, .sidebarlist ol li .date{
+color: #0099cc;
+text-decoration: none;
+}
+
+#footer {
+width: 930px;
+float: left;
+height: 100px;
+}
+
+#footer .left {
+width: 330px;
+background: black;
+float: left;
+}
+
+#footer .left p {
+font-size: 12px;
+line-height: 13px;
+margin: 44px 20px;
+}
+
+#footer .left p a {
+color: #0099cc;
+text-decoration: none;
+}
+
+#footer .right {
+width: 600px;
+float: right;
+}
+
+#footer .right p {
+font-size: 12px;
+line-height: 13px;
+margin: 44px 20px;
+}
+
+#footer .right p a{
+color: white;
+font-weight: bold;
+}

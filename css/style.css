@@ -8,6 +8,9 @@ body {
   color: #fff;
   background: #09C url('/img/bg-black-330.png') top left repeat-y;
   }
+pre {
+  margin-bottom: 1em;
+}
 a {
   text-decoration: none;
   color: #09c;
@@ -258,7 +261,7 @@ ol.nav {
   padding: 1em .5em;
   border: 2px solid #fff;
   }
-.footnotes {
+.essay ol:not(.nav) {
   margin: 0 0 1em 2em;
   font-size: 9pt;
   line-height: 140%;

@@ -23,6 +23,10 @@
     <div id="beta">
       <div class="inner">
 
+        {% if page.layout == "essay" %}
+        {% include essays_list.html %}
+        {% endif %}
+
         <div id="freesouls-flickr">
           {% include freesouls_flickr.html %}
         </div>
