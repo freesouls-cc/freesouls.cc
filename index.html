@@ -1,0 +1,56 @@
+---
+layout: default
+---
+
+    <div id="gamma">
+      <div class="inner">
+        <div class="takeaway">
+          <h2>Freesouls</h2>
+          <h3>Captured and released</h3>
+          <p>
+            This is a celebration of all the people who are willing to give.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="delta">
+      <div class="inner">
+
+<a href="/thebooks/" title="Freesouls: The Books"><img src="http://freesouls.cc/thebooks/thumbs/00-LUXURY-EDITION-hardcover-perspective-closeup-c_01.jpg" style="float:right;width:200px;" /></a>
+
+        <div id="posts">
+          {% for post in site.tags.home %}
+          <div class="entry">
+            <h4><a href="{{ post.url | prepend: site.url }}" title="{{ post.title | escape}}">{{ post.title }}&nbsp;&raquo;</a></h4>
+            <div class="post">
+              <a class="entry-date" href="{{ post.url | prepend: site.url }}" title="permalink">{{ post.date | date: "%B %d, %Y"}}</a>
+              {{ post.content }}
+           </div>
+          </div>
+          {% endfor %}
+        </div>
+
+        <div id="pages">
+          {% for post in site.essays %}
+          <div class="entry">
+            <h4><a href="{{ post.url | prepend: site.url }}" title="{{ post.title | escape}}">{{ post.title }}&nbsp;&raquo;</a></h4>
+            <div class="post">
+              {{ post.excerpt }}
+              <a href="{{ post.url }}" title="read on">read&nbsp;on&nbsp;&raquo;</a>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+<mt:Include widget="freesouls-essay-nav">
+
+  <mt:Pages folder="ModelRelease" limit="1">
+    <div class="entry">
+      <mt:PageExcerpt />
+      <div class="post"><a href="<mt:PagePermalink />" title="Freesouls Model Release Form">read on &raquo;</a></div>
+    </div>
+  </mt:Pages>
+
+      </div>
+    </div>

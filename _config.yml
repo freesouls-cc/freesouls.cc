@@ -1,0 +1,39 @@
+title: Freesouls.cc
+description: ""
+exclude: [README.md, LICENSE.md, Gemfile, Gemfile.lock]
+gems: ["jekyll-paginate", "jekyll-feed"]
+
+url: https://freesouls.cc
+
+paginate_path: "/blog/page:num/"
+paginate: 10
+
+email: books@freesouls.cc
+github_username: freesouls-cc
+twitter_username: FreesoulsCC
+
+source_url: "https://github.com/freesouls-cc/freesouls.cc/blob/master/"
+
+license: "Creative Commons Attribution License"
+license_url: https://creativecommons.org/licenses/by/3.0/
+
+feed:
+  path: atom.xml
+
+collections:
+  essays:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: essays
+    values:
+      layout: essay
+      permalink: /essays/:title.html
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      permalink: /:year/:month/:title.html

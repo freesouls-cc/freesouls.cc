@@ -140,6 +140,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (= 104)
+  jekyll-feed
   jekyll-paginate
 
 BUNDLED WITH

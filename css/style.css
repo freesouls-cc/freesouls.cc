@@ -1,0 +1,311 @@
+/* @group Overall */
+* {
+  margin: 0;
+  padding: 0;
+  }
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  color: #fff;
+  background: #09C url('/img/bg-black-330.png') top left repeat-y;
+  }
+a {
+  text-decoration: none;
+  color: #09c;
+  }
+.right a {
+  text-decoration: underline;
+  color: #fff;
+  font-weight: bold;
+  }
+.right .nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: normal;
+  }
+.right .nav a:hover {
+  text-decoration: underline;
+  }
+/* @end */
+/* @group Utility */
+.inner {
+  padding:15px;
+  }
+.takeaway {
+  position: absolute;
+  top: -600px;
+  left:	-600px;
+  }
+/* @end */
+/* @group Structure */
+#container {
+  overflow: hidden;
+  width: 930px;
+  }
+.left {
+  float: left;
+  width: 330px;
+  }
+  #alpha {
+    height: 450px;
+    background: transparent url('/img/JoiIto.jpg') top left no-repeat;
+    }
+.right {
+  width: 600px;
+  margin: 0 0 0 330px;
+  }
+  #gamma {
+    height: 300px;
+    background: transparent url('/img/Freesouls.png') top left no-repeat;
+    }
+  #delta {
+    }
+  #footer {
+    clear: both;
+    margin: 40px 20px;
+    font-size: 8pt;
+    overflow: hidden;
+    width: 800px;
+    }
+
+/* @end */
+/* @group Freesoul Flickr */
+
+#freesoul-featured a#pic {
+  display: block;
+  width: 290px;
+  overflow: hidden;
+  padding: 1px;
+  background: #fff;
+  border: 1px solid #000;
+  }
+#freesoul-featured img {
+  width: 290px;
+  border: none;
+  }
+#freesoul-featured a#name {
+  position: relative;
+  top: -22px;
+  left: 2px;
+  font-size: 14px;
+  padding:7px 10px 0 10px;
+  font-weight: normal;
+  background: #fff;
+  }
+
+#freesouls-grid {
+  width:315px;
+  overflow: hidden;
+  }
+#freesouls-grid a {
+  display: block;
+  float: left;
+  margin:0 0 0 0;
+  padding: 1px;
+  background: #fff;
+  border: 1px solid #000;
+  }
+#freesouls-grid img {
+  border: none;
+  width:45px;
+  }
+#freesoulslist {}
+#freesoulslist .list-block {
+  float: left;
+  margin: 0 0 10px 0;
+  width: 220px;
+  overflow: hidden;
+  }
+#freesoulslist .img {
+  float: left;
+  margin: 0 10px 0 0;
+  }
+#freesoulslist .img img {
+  display: inline;
+  width: 24px;
+  height: 24px;
+  }
+#freesoulslist .name {
+  margin: 5px 0 0 0;
+  }
+#freesoulslist .name a {
+  font-size: 10pt;
+  font-weight: normal;
+  text-decoration: none;
+  }
+#freesoulslist .name a:hover {
+  text-decoration:underline;
+  }
+/* @end */
+
+
+
+/* @group Navigation */
+
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+ol.nav {
+  margin:.5em 0 0 0;
+  padding:0 0 0 1.6em;
+  }
+.essays-list {
+  margin: 0 0 1em;
+  }
+.essays-list li {
+  font-size: 8pt;
+  margin-bottom: 5px;
+  line-height:130%;
+  }
+.essays-list .listed-title {
+  font-size: 10pt;
+  }
+.essays-list li.on,
+.essays-list li.on .listed-title {
+  font-size: 120%;
+  }
+.essays-list li.on {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin: .5em 0;
+  padding: .5em 0;
+  }
+
+/* @end */
+
+
+
+/* @group Entries */
+#posts {
+  margin: 0 0 20px;
+  border-bottom: 1px dotted #fff;
+  }
+.entry {
+  margin: 0 0 20px 0;
+  }
+  .entry h4 {
+  	font-weight: normal;
+  	margin:0 0 4px;
+  	line-height:130%;
+    }
+  .entry h4 a,
+  .entry a.entry-date {
+  	font-weight: normal;
+  	text-decoration: none;
+    }
+  .entry .post {
+  	font-size: 8.5pt;
+  	line-height:150%;
+    }
+.asset-name {
+  font-size: 12pt;
+  font-weight: normal;
+  margin:0 0 4px;
+  line-height:130%;
+  }
+.asset-content {
+  font-size: 10pt;
+  line-height: 140%;
+  }
+.essay-blurb {
+  font-size: 8.5pt;
+  margin-top:2em;
+  margin-bottom:2em;
+  padding-bottom:2em;
+  border-bottom: 1px dotted #fff;
+  }
+.essay-blurb .source {
+  display: none;
+  }
+
+/* @end */
+/* @group Pages */
+.page-folder-name {
+  text-align: left;
+  font-size: 10pt;
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #fff;
+  }
+.asset-body p {
+  margin-bottom:1em;
+  line-height:150%;
+  }
+.asset-body blockquote {
+  margin: 0 0 1em 2em;
+  font-size: 95%;
+  }
+.asset-body ul {
+  margin: 0 0 1em 1.2em;
+  }
+/* @end */
+/* @group Essays */
+.essay #page-title {
+  font-size: 14pt;
+  margin: 0;
+  line-height: 110%;
+  }
+.essay .essay-writer {
+  font-size: 10pt;
+  font-weight: normal;
+  }
+.flickr-freesoul-essay-pic {
+  margin: .5em 0;
+  }
+.essay #more {
+  margin: 1em 0;
+  padding: 1em .5em;
+  border: 2px solid #fff;
+  }
+.footnotes {
+  margin: 0 0 1em 2em;
+  font-size: 9pt;
+  line-height: 140%;
+  }
+
+a.fn-it {
+  text-decoration: none;
+  font-weight: normal;
+  }
+a.fn-it:hover {
+  text-decoration: underline;
+  }
+a.fn-up {
+  text-decoration: none;
+  }
+a.fn-up:hover {
+  text-decoration: underline;
+  }
+
+/* @end */
+/* @group TheBooks */
+
+.imageblock {
+  margin-bottom:40px;
+  width: 100%;
+  overflow: hidden;
+  }
+.imageblock .sidebyside {
+  width: 100%;
+  overflow: hidden;
+  }
+.imageblock .sidebyside .half {
+  float: left;
+  margin-right: 10px;
+  }
+.imageblock .sidebyside .half img {
+  width: 243px;
+  }
+.imageblock .caption {
+  margin-top: 10px;
+  width: 490px;
+  font-size:9pt;
+  }
+
+/* @end */
+/* @group Footer */
+#footer img {
+  border: none;
+  }
+/* @end */

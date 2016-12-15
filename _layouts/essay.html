@@ -1,0 +1,53 @@
+---
+layout: default
+---
+      <div id="delta">
+        <div class="inner">
+        <div class="page-folder-name">
+          <a href="{{ site.url }}" title="Freesouls Home">Home</a> »
+          <a href="{{ "/essays" | prepend: site.url }}" title="Freesouls - Essays">Essays</a>
+        </div>
+        <div class="page-asset asset essay">
+
+    <div class="asset-header">
+        <h1 id="page-title" class="asset-name">{{ page.title }}</h1>
+    </div>
+
+    <div class="asset-content">
+
+
+      <div class="essay-stuff">
+        <h2 class="essay-writer">{{ page.author }}</h2>
+        <div class="flickr-freesoul-essay-pic">
+<a id="pic" href="{{ page.portrait }}" title="{{ page.author }}"><img alt="" src="{{ page.image }}" width="420"></a>
+</div>
+        <div class="essay-blurb">
+          <blockquote>{{ page.bio }}<br>
+            {% for link in page.links %}
+            {{ link.name }}:
+            <a href="{{ link.url }}">{{ link.url | remove_first: "https://" | remove_first: "http://" }}</a>
+            {% endfor %}
+          </blockquote>
+          {% if page.source %}
+          <div class="blurbsource">{{ page.source }}</div>
+          {% endif %}
+        </div>
+      </div>
+
+        <div class="asset-body">
+          {{ content }}
+        </div>
+
+        {% if page.chinese %}
+        <div id="more" class="asset-more">
+            This article is available <a href="{{ page.chinese | prepend: site.url }}">in Chinese</a> by Yeeyan.
+        </div>
+        {% endif %}
+
+
+    </div>
+    <div class="asset-footer"></div>
+</div>
+
+        </div>
+      </div>
