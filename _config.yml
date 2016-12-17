@@ -27,6 +27,8 @@ collections:
     output: true
   modelrelease:
     output: true
+  pic:
+    output: true
 
 defaults:
   - scope:
@@ -53,3 +55,9 @@ defaults:
     values:
       layout: post
       permalink: /:year/:month/:title.html
+  - scope:
+      path: ""
+      type: pic
+    values:
+      layout: page
+      permalink: /:title/
