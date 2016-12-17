@@ -26,6 +26,6 @@ GET THE BOXED SET. ($349 + sh.)<br />
 </form>
 <br />
 
-<a href= "http://freesouls.cc/thebooks/" title="Take a look inside">Take a look inside &raquo;</a><br /><br />
+<a href= "/thebooks/" title="Take a look inside">Take a look inside &raquo;</a><br /><br />
 
-<a href= "http://freesouls.cc/order/" title="Order details">Order details &raquo;</a>
+<a href= "/order/" title="Order details">Order details &raquo;</a>
