@@ -21,11 +21,11 @@ module FreesoulsCC
       @users
     end
 
-    def sync(tags, filename)
+    def sync(tags)
       s = "title"
       photos = fetch(tags).map {|p| p.to_hash}.sort { |x,y| x[s] <=> y[s] }
 
-      File.open("_data/#{filename}", "w") do |f|
+      File.open("_data/#{tags}.json", "w") do |f|
         f.write(JSON.pretty_generate(photos))
       end
     end
