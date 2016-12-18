@@ -6,7 +6,7 @@ module FreesoulsCC
   class Flickr
     @@per_page = 500
     @@sort = "date-posted-desc"
-    @@extras = "url_m,url_sq,path_alias"
+    @@extras = "url_m,url_sq,path_alias,date_taken"
 
     def initialize
       FlickRaw.api_key = FLICKR_API_KEY
