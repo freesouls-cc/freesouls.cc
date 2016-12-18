@@ -3,6 +3,22 @@ require_relative '../config/config.rb'
 
 module FreesoulsCC
 
+  class Jekyll
+    @@template = "---\ntitle: Picture\n---"
+
+    def initialize(tags)
+      file = File.read("_data/#{tags}.json")
+      @photos = JSON.parse(file)
+    end
+
+    def gen
+      @photos.keys.each { |id|
+        f = File.open("_pics/#{id}.md", "w")
+        f.write(@@template)
+      }
+    end
+  end
+
   class Flickr
     @@per_page = 500
     @@sort = "date-posted-desc"

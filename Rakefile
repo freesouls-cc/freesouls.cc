@@ -6,3 +6,9 @@ task :sync do
   fcc = FreesoulsCC::Flickr.new()
   fcc.sync("freesoulsbook")
 end
+
+desc "Generate templates"
+task :generate do
+  gen = FreesoulsCC::Jekyll.new("freesoulsbook")
+  gen.gen
+end
