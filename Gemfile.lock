@@ -19,6 +19,7 @@ GEM
     faraday (0.10.0)
       multipart-post (>= 1.2, < 3)
     ffi (1.9.14)
+    flickraw (0.9.9)
     forwardable-extended (2.6.0)
     gemoji (2.1.0)
     github-pages (104)
@@ -117,6 +118,7 @@ GEM
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (1.5.3)
+    rake (12.0.0)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -139,9 +141,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  flickraw
   github-pages (= 104)
   jekyll-feed
   jekyll-paginate
+  rake
 
 BUNDLED WITH
    1.13.6
