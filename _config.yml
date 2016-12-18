@@ -29,6 +29,8 @@ collections:
     output: true
   pic:
     output: true
+  pics:
+    output: true
 
 defaults:
   - scope:
@@ -61,3 +63,9 @@ defaults:
     values:
       layout: page
       permalink: /:title/
+  - scope:
+      path: ""
+      type: pics
+    values:
+      layout: pic
+      permalink: pic/:title/

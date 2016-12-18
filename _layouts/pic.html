@@ -1,0 +1,20 @@
+---
+layout: page
+---
+
+{% assign page_id = page.id | replace: "/pic/", "" %}
+{% assign pic = site.data.freesoulsbook[page_id] %}
+{% assign esc_title = pic.title | escape %}
+
+<p></p>
+<h2>{{ pic.title }}</h2>
+<h4>{{ pic.datetaken | date: "%R, %A, %B %e, %Y" }}</h4>
+<a id="pic" href="http://www.flickr.com/photos/{{ pic.pathalias }}/{{ pic.id }}" title="{{ esc_title }}">
+  <img alt="{{ esc_title }}" src="{{ pic.url_m }}" width="433">
+</a>
+<p>
+This photograph
+of {{ pic.title }} is included in <a href="http://freesouls.cc/thebooks/">the limited edition book,<br>"FREESOULS captured and released by JOI ITO."</a>
+<br>
+<a href="http://freesouls.cc/order/" title="order Freesouls now">order&nbsp;now&nbsp;»</a>
+</p>
