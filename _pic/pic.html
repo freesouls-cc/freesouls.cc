@@ -4,7 +4,8 @@ title: Freesouls Volume 1
 
 <div id="freesoulslist">
 
-  {% for pic in site.data.freesoulsbook %}
+  {% for pic_hash in site.data.freesoulsbook %}
+  {% assign pic = pic_hash[1] %}
   {% assign esc_title = pic.title | escape %}
 
 <div class="list-block">

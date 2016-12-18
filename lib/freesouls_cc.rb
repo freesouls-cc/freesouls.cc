@@ -23,7 +23,14 @@ module FreesoulsCC
 
     def sync(tags)
       s = "title"
-      photos = fetch(tags).map {|p| p.to_hash}.sort { |x,y| x[s] <=> y[s] }
+      photos = fetch(tags).map { |p|
+        p.to_hash
+      }.sort {|x,y|
+        x[s] <=> y[s]
+      }.reduce({}) { |memo, p|
+        memo[p["id"]] = p
+        memo
+      }
 
       File.open("_data/#{tags}.json", "w") do |f|
         f.write(JSON.pretty_generate(photos))
