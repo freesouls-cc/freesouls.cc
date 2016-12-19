@@ -1,13 +1,12 @@
 require 'flickraw'
-require_relative '../config/config.rb'
 
 module FreesoulsCC
 
   class Jekyll
     @@template = "---\ntitle: Picture\n---"
 
-    def initialize(tags)
-      file = File.read("_data/#{tags}.json")
+    def initialize(filename)
+      file = File.read("_data/#{filename}.json")
       @photos = JSON.parse(file)
     end
 
@@ -24,22 +23,14 @@ module FreesoulsCC
     @@sort = "date-posted-desc"
     @@extras = "url_m,url_sq,path_alias,date_taken,tags"
 
-    def initialize
-      FlickRaw.api_key = FLICKR_API_KEY
-      FlickRaw.shared_secret = FLICKR_API_SECRET
-
-      @users = FLICKR_USERS.map { |username|
-        flickr.people.findByUsername(:username => username)
-      }
+    def initialize(flickr_api_key, flickr_api_secret)
+      FlickRaw.api_key = flickr_api_key
+      FlickRaw.shared_secret = flickr_api_secret
     end
 
-    def users()
-      @users
-    end
-
-    def sync(tags)
+    def sync(queries, filename)
       s = "title"
-      photos = fetch(tags).map { |p|
+      photos = fetch(queries).map { |p|
         p.to_hash
       }.sort {|x,y|
         x[s] <=> y[s]
@@ -48,13 +39,16 @@ module FreesoulsCC
         memo
       }
 
-      File.open("_data/#{tags}.json", "w") do |f|
+      File.open("_data/#{filename}.json", "w") do |f|
         f.write(JSON.pretty_generate(photos))
       end
     end
 
-    def fetch(tags)
-      photos = @users.map { |user|
+    def fetch(queries)
+      tags = queries[:tags]
+
+      photos = queries[:usernames].map { |username|
+        user = flickr.people.findByUsername(:username => username)
         results = search(user.id, tags)
       }.flatten
     end
