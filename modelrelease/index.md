@@ -5,7 +5,7 @@ description: >
   to a model release, giving Joi permission to use their images. By
   licensing this work under a Creative Commons license, Joi is extending
   this permission to you.
-permalink: /modelrelease/
+layout: page
 ---
 
 The following is a copy of a Model Release Form signed by all of the

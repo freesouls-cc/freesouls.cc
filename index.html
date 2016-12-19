@@ -47,15 +47,18 @@ layout: default
         {% include essays_list.html %}
 
         <div id="pages">
-          {% for post in site.modelrelease %}
           <div class="entry">
-            <h4><a href="{{ post.url | prepend: site.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
+            <h4><a href="{{ "/modelrelease" | prepend: site.url }}" title="Model Release">Model Release</a></h4>
             <div class="post">
-              {{ post.description }}
-              <a href="{{ post.url }}" title="read on">read&nbsp;on&nbsp;&raquo;</a>
+              <p>
+  We asked all of the generous people who appear in this book to agree
+  to a model release, giving Joi permission to use their images. By
+  licensing this work under a Creative Commons license, Joi is extending
+  this permission to you.
+              <a href="{{ "/modelrelease" | prepend: site.url }}" title="read on">read&nbsp;on&nbsp;&raquo;</a>
+              </p>
             </div>
           </div>
-          {% endfor %}
         </div>
 
       </div>
