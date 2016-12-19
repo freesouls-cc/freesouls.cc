@@ -1,0 +1,14 @@
+  {% assign page_id = include.page.id | replace: include.dir, "" %}
+  {% assign pic = site.data.photos[page_id] %}
+  {% assign esc_title = pic.title | escape %}
+
+<div class="list-block">
+  <div class="img">
+    <a href="http://www.flickr.com/photos/{{pic.pathalias }}/{{ pic.id }}" title="{{ esc_title }}">
+      <img alt={{ esc_title }} src="{{ pic.url_sq }}" border="1">
+    </a>
+  </div>
+  <div class="name">
+    <a href="{{ pic.id }}" title="">{{ pic.title }}</a>
+  </div>
+</div>
