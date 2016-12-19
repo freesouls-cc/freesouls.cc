@@ -9,7 +9,7 @@ task :sync do
 end
 
 desc "Generate templates"
-task :generate do
+task :gen do
   gen = FreesoulsCC::Jekyll.new("freesoulsbook")
   gen.gen
 end
