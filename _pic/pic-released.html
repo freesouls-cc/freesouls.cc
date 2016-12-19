@@ -1,3 +1,10 @@
 ---
 title: Available with a model release
 ---
+
+<div id="freesoulslist">
+
+  {% for page in site.modelrelease %}
+    {% include photos_list.html page=page dir="/pic-released/" %}
+  {% endfor %}
+</div>

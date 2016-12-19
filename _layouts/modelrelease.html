@@ -1,0 +1,15 @@
+---
+layout: page
+---
+
+{% assign page_id = page.id | replace: "/pic-released/", "" %}
+{% assign pic = site.data.photos[page_id] %}
+
+{% include pic.html pic=pic %}
+
+<p>
+This photograph
+of {{ pic.title }} is available with a <a href="/modelrelease/" title="Freesouls Model Release">model release</a>. Other portraits are featured in the limited edition book, <a href="/thebooks/">"FREESOULS captured and released by JOI ITO."</a>
+<br>
+<a href="/order/" title="order Freesouls now">order&nbsp;now&nbsp;»</a>
+</p>

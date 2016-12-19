@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+{% assign page_id = page.id | replace: "/pic-unreleased/", "" %}
+{% assign pic = site.data.photos[page_id] %}
+
+{% include pic.html pic=pic %}
+
+<p>
+This photograph
+of {{ pic.title }} is not included in <a href="/thebooks/">the limited edition book,<br>"FREESOULS captured and released by JOI ITO."</a> and the person(s) pictured did not yet sign a <a href="/model-release.html" title="Freesouls Model Release">model release</a>.
+<br>
+But many more photos are in the book.
+<br>
+<a href="http://freesouls.cc/order/" title="order Freesouls now">order&nbsp;now&nbsp;»</a>
+</p>

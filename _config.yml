@@ -29,7 +29,11 @@ collections:
     output: true
   freesoulsbook:
     output: true
+  modelrelease:
+    output: true
   newrelease:
+    output: true
+  needrelease:
     output: true
 
 defaults:
@@ -67,5 +71,17 @@ defaults:
       path: ""
       type: newrelease
     values:
-      layout: pic
+      layout: newrelease
       permalink: pic-newreleases/:title/
+  - scope:
+      path: ""
+      type: modelrelease
+    values:
+      layout: modelrelease
+      permalink: pic-released/:title/
+  - scope:
+      path: ""
+      type: needrelease
+    values:
+      layout: needrelease
+      permalink: pic-unreleased/:title/
