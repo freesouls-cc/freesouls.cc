@@ -31,6 +31,8 @@ collections:
     output: true
   freesoulsbook:
     output: true
+  newrelease:
+    output: true
 
 defaults:
   - scope:
@@ -69,3 +71,9 @@ defaults:
     values:
       layout: pic
       permalink: pic/:title/
+  - scope:
+      path: ""
+      type: newrelease
+    values:
+      layout: pic
+      permalink: pic-newreleases/:title/
