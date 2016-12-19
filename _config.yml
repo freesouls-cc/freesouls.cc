@@ -29,7 +29,7 @@ collections:
     output: true
   pic:
     output: true
-  pics:
+  freesoulsbook:
     output: true
 
 defaults:
@@ -65,7 +65,7 @@ defaults:
       permalink: /:title/
   - scope:
       path: ""
-      type: pics
+      type: freesoulsbook
     values:
       layout: pic
       permalink: pic/:title/

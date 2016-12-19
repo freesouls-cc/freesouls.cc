@@ -11,5 +11,5 @@ end
 desc "Generate templates"
 task :gen do
   gen = FreesoulsCC::Jekyll.new("photos")
-  gen.gen
+  gen.gen(FLICKR_QUERIES)
 end

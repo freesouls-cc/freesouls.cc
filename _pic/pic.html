@@ -4,9 +4,9 @@ title: Freesouls Volume 1
 
 <div id="freesoulslist">
 
-  {% for page in site.pics %}
+  {% for page in site.freesoulsbook %}
   {% assign page_id = page.id | replace: "/pic/", "" %}
-  {% assign pic = site.data.freesoulsbook[page_id] %}
+  {% assign pic = site.data.photos[page_id] %}
   {% assign esc_title = pic.title | escape %}
 
 <div class="list-block">

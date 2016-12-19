@@ -10,10 +10,18 @@ module FreesoulsCC
       @photos = JSON.parse(file)
     end
 
-    def gen
-      @photos.keys.each { |id|
-        f = File.open("_pics/#{id}.md", "w")
-        f.write(@@template)
+    def gen(queries)
+      queries[:tags].each { |tag|
+        dir = "_#{tag}"
+        unless Dir.exist?(dir)
+          Dir.mkdir(dir)
+        end
+        @photos.select { |id,photo|
+          photo["tags"].split(" ").include?(tag)
+        }.keys.each { |id|
+          f = File.open("#{dir}/#{id}.md", "w")
+          f.write(@@template)
+        }
       }
     end
   end
@@ -45,7 +53,7 @@ module FreesoulsCC
     end
 
     def fetch(queries)
-      tags = queries[:tags]
+      tags = queries[:tags].join(",")
 
       photos = queries[:usernames].map { |username|
         user = flickr.people.findByUsername(:username => username)
