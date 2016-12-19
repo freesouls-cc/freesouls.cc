@@ -29,7 +29,7 @@ module FreesoulsCC
     end
 
     def sync(queries, filename)
-      s = "title"
+      s = "id"
       photos = fetch(queries).map { |p|
         p.to_hash
       }.sort {|x,y|
