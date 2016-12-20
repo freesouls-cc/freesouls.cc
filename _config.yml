@@ -3,7 +3,7 @@ description: ""
 exclude: [README.md, LICENSE.txt, Gemfile, Gemfile.lock, Rakefile, config, lib]
 gems: ["jekyll-paginate", "jekyll-feed"]
 
-url: http://freesouls.cc
+url: https://freesouls.cc
 
 paginate_path: "/blog/page:num/"
 paginate: 10
