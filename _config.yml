@@ -71,7 +71,7 @@ defaults:
       path: ""
       type: newrelease
     values:
-      layout: newrelease
+      layout: modelrelease
       permalink: pic-newreleases/:title/
   - scope:
       path: ""
