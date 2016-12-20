@@ -4,6 +4,4 @@ title: trackbacks
 tags: home
 ---
 
-<a href="http://freesouls.cc/what-people-are-saying-about-freesouls.html">See what people are saying about Freesouls.&nbsp;&raquo;</a>
-
-
+<a href="{{ "/what-people-are-saying-about-freesouls.html" | prepend: site.url }}">See what people are saying about Freesouls.&nbsp;&raquo;</a>

@@ -9,5 +9,4 @@ published: false
 
 The first free release of VOLUME 1 is NOW AVAILABLE.
 
-<a href="http://freesouls.cc/thebooks/FREESOULS-1.0.pdf">Download the PDF&raquo;</a> [16.6 MB]
-
+<a href="{{ "/thebooks/FREESOULS-1.0.pdf" | prepend: site.url }}">Download the PDF&raquo;</a> [16.6 MB]
