@@ -8,3 +8,9 @@ pages.
 [FREESOULS.cc](http://freesouls.cc)
 
 ![Screenshot](img/SCREENSHOT.png)
+
+## License
+
+Licensed under a Creative Commons Attribution License.
+See [LICENSE.txt](LICENSE.txt)
+
