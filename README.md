@@ -21,6 +21,9 @@ bundle exec jekyll build
 
 Update photo data and templates:
 
+* Copy `config/config-sample.rb` to `config/sample.rb` and add API
+  keys.
+
 ```sh
 bundle exec rake sync
 bundle exec rake gen
