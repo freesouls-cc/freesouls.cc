@@ -9,6 +9,23 @@ pages.
 
 ![Screenshot](img/SCREENSHOT.png)
 
+## Instructions
+
+```sh
+gem install jekyll bundler
+git clone https://github.com/freesouls-cc/freesouls.cc.git
+cd freesouls.cc
+bundle install
+bundle exec jekyll build
+```
+
+Update photo data and templates:
+
+```sh
+bundle exec rake sync
+bundle exec rake gen
+```
+
 ## License
 
 Licensed under a Creative Commons Attribution License.
