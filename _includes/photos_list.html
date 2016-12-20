@@ -1,5 +1,4 @@
-  {% assign page_id = include.page.id | replace: include.dir, "" %}
-  {% assign pic = site.data.photos[page_id] %}
+  {% assign pic = site.data.photos[include.page.slug] %}
   {% assign esc_title = pic.title | escape %}
 
 <div class="list-block">

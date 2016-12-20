@@ -2,8 +2,7 @@
 layout: page
 ---
 
-{% assign page_id = page.id | replace: "/pic/", "" %}
-{% assign pic = site.data.photos[page_id] %}
+{% assign pic = site.data.photos[page.slug] %}
 
 {% include pic.html pic=pic %}
 
