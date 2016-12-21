@@ -5,8 +5,9 @@ author: Joi Ito
 description: >
   This interview was conducted by Christopher Adams and Chiang
   Huei-Hsien in Tokyo on 5 February 2008.
-image: http://freesouls.cc/essays/2061875577_8c2518ccd8.jpg
-credit: Photo CC-by Sean Wood
+portrait: https://www.flickr.com/photos/joi/477842380/
+image: https://c1.staticflickr.com/1/200/477842380_ee69046f6f.jpg
+credit: Photo CC-by Mizuka
 bio: >
   Joichi Ito (伊藤穰一), more commonly known as Joi Ito, is an
   American-educated Japanese activist, entrepreneur and venture
