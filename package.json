@@ -1,0 +1,23 @@
+{
+  "name": "freesouls.cc",
+  "version": "2.0.0",
+  "description": "FREESOULS Captured and Released by JOI ITO ",
+  "main": "index.js",
+  "dependencies": {
+    "milligram": "^1.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freesouls-cc/freesouls.cc.git"
+  },
+  "author": "Christopher Adams",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/freesouls-cc/freesouls.cc/issues"
+  },
+  "homepage": "https://github.com/freesouls-cc/freesouls.cc#readme"
+}

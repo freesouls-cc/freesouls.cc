@@ -15,6 +15,7 @@ pages.
 gem install jekyll bundler
 git clone https://github.com/freesouls-cc/freesouls.cc.git
 cd freesouls.cc
+npm install
 bundle install
 bundle exec jekyll build
 ```
