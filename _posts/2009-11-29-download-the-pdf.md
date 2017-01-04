@@ -1,7 +1,6 @@
 ---
 author: Christopher Adams
 title: Download the PDF
-tags: home
 published: false
 ---
 

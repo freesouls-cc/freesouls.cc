@@ -1,7 +1,6 @@
 ---
 author: Christopher Adams
 title: Screen Edition
-tags: home
 ---
 
 IMMEDIATE DOWNLOAD: <b>Freesouls 1.1 Screen Edition</b>

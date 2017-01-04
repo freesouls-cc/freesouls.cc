@@ -1,7 +1,6 @@
 ---
 author: Christopher Adams
 title: Release Yourself!
-tags: home
 ---
 
 The Freesouls 2 project is now collecting new photos. <a href="/need-release.html">Read on &raquo;</a><br /><br />

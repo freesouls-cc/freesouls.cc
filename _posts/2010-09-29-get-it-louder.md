@@ -1,7 +1,7 @@
 ---
 author: Christopher Adams
 title: Get It Louder
-tags: home
+tags: news
 ---
 
 *Freesouls* is currently featured at [Get It Louder] 2010 in Beijing,
