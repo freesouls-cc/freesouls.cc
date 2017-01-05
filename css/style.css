@@ -155,6 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 #freesouls-grid img {
   border: none;
   width:45px;
+  height: 45px;
   }
 #freesoulslist {}
 #freesoulslist .list-block {
