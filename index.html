@@ -16,7 +16,7 @@ layout: default
         <div id="posts">
           {% for post in site.tags.home %}
           <div class="entry">
-            <h4><a href="{{ post.url | prepend: site.url }}" title="{{ post.title | escape}}">{{ post.title }}&nbsp;&raquo;</a></h4>
+            <h4><a href="{{ post.url | prepend: site.url }}" title="{{ post.title | escape}}">{{ post.title }}</a></h4>
             <div class="post">
               <span class="entry-date details">{{ post.date | date: "%B %e, %Y"}}</span>
               {{ post.content }}
