@@ -34,15 +34,16 @@ layout: default
           {{ page.credit }}<br>
           {% endif %}
           {% if page.bio or page.links %}
-          <blockquote>{{ page.bio }}<br>
+          <blockquote>{{ page.bio }}
+          {% if page.source %}
+          <span class="source">{{ page.source }}</span>
+          {% endif %}
+            <br>
             {% for link in page.links %}
             {{ link.name }}:
             <a href="{{ link.url }}">{{ link.url | remove_first: "https://" | remove_first: "http://" }}</a>
             {% endfor %}
           </blockquote>
-          {% endif %}
-          {% if page.source %}
-          <div class="blurbsource">{{ page.source }}</div>
           {% endif %}
         </div>
       </div>

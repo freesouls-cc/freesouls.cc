@@ -250,7 +250,7 @@ ol.nav {
   border-bottom: 1px dotted #d1d1d1;
   }
 .essay-blurb .source {
-  display: none;
+  font-style: italic;
   }
 
 /* @end */
