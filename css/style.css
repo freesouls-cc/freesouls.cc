@@ -19,6 +19,21 @@ a {
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0;
 }
+.button,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  background-color: #ff0088;
+  border: 0.1rem solid #ff0088;
+}
+.button.button-outline,
+button.button-outline,
+input.button-outline[type="button"],
+input.button-outline[type="reset"],
+input.button-outline[type="submit"] {
+  color: #ff0088;
+}
 .details {
   font-size: 9pt;
   color: #606c76;
