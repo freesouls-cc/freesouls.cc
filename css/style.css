@@ -249,6 +249,9 @@ ol.nav {
   padding-bottom:2em;
   border-bottom: 1px dotted #d1d1d1;
   }
+.essay-blurb blockquote {
+  margin-bottom: 0;
+}
 .essay-blurb .source {
   font-style: italic;
   }
