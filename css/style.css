@@ -67,7 +67,11 @@ h1, h2, h3, h4, h5, h6 {
 .right {
   width: 100%;
   background: #0099CC;
+  padding-top: 15px;
   }
+.container {
+  padding: 0 15px;
+}
   #gamma,
   #gamma h2,
   #gamma h3 {
@@ -82,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0;
     }
   #gamma h2 {
-    margin-top: -11px;
+    margin-top: -12px;
     margin-left: -5px;
     font-size: 72px;
     }

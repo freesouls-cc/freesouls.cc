@@ -46,18 +46,21 @@
 
   <div class="right">
 
-    {{ content }}
-
-    {% if site.license %}
-    <div class="inner details">
-      <div class="widget-creative-commons widget">
-        <div class="widget-content">
-          Licensed under a <a href="{{ site.license_url }}">{{ site.license }}</a>.
+    <div class="container">
+      <div class="row">
+        <div class="column column-67">
+          {{ content }}
+        </div>
+        <div class="column column-33">
+          {% include order.html %}
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          {% include license.html %}
         </div>
       </div>
     </div>
-    {% endif %}
-
   </div>
 
 </div>
