@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0;
 }
 .details {
-  font-size: 8pt;
+  font-size: 9pt;
 }
 .right a {
   text-decoration: underline;
@@ -194,16 +194,11 @@ ol.nav {
   font-weight: normal;
   }
 .essays-list li {
-  font-size: 8pt;
   margin-bottom: 5px;
   line-height:130%;
   }
 .essays-list .listed-title {
-  font-size: 10pt;
-  }
-.essays-list li.on,
-.essays-list li.on .listed-title {
-  font-size: 120%;
+  font-weight: bold;
   }
 .essays-list li.on {
   border-top: 1px solid #d1d1d1;
@@ -235,7 +230,6 @@ ol.nav {
   	text-decoration: none;
     }
   .entry .post {
-  	font-size: 8.5pt;
   	line-height:150%;
     }
 .asset-name {
@@ -245,11 +239,9 @@ ol.nav {
   line-height:130%;
   }
 .asset-content {
-  font-size: 10pt;
   line-height: 140%;
   }
 .essay-blurb {
-  font-size: 8.5pt;
   margin-top:2em;
   margin-bottom:2em;
   padding-bottom:2em;
@@ -285,10 +277,6 @@ ol.nav {
   font-size: 14pt;
   margin: 0;
   line-height: 110%;
-  }
-.essay .essay-writer {
-  font-size: 10pt;
-  font-weight: normal;
   }
 .flickr-freesoul-essay-pic {
   margin: .5em 0;

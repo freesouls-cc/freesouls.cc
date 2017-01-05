@@ -8,10 +8,11 @@
     {% endif %}
     <li class="{{ list_class }}">
       <a href="{{ post.url | prepend: site.url }}">
-        {% if post.author %}
-        {{ post.author }}<br/>
-        {% endif %}
         <span class="listed-title">{{ post.title }}</span></a>
+        {% if post.author %}
+        by
+        {{ post.author }}
+        {% endif %}
     </li>
     {% endfor %}
   </ol>

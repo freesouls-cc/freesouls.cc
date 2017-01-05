@@ -16,14 +16,14 @@ layout: default
 
 
       <div class="essay-stuff">
-        <h2 class="essay-writer">{{ page.author }}</h2>
+        <div class="essay-writer">{{ page.author }}</div>
         <div class="flickr-freesoul-essay-pic">
           {% if page.portrait %}<a id="pic" href="{{ page.portrait }}" title="{{ page.author }}">{% endif %}
             {% if page.image %}<img alt="" src="{{ page.image }}" width="420">{% endif %}
           {% if page.portrait %}</a>{% endif %}
         </div>
 
-        <div class="essay-blurb">
+        <div class="essay-blurb details">
           {% if page.subtitle %}
           {{ page.subtitle }}<br>
           {% endif %}

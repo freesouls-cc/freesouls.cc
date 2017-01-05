@@ -51,7 +51,9 @@
           {% include order.html %}
 
           {% if page.layout == "essay" %}
-          {% include essays_list.html %}
+          <div class="details">
+            {% include essays_list.html %}
+          </div>
           {% endif %}
         </div>
       </div>
