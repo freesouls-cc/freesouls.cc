@@ -39,7 +39,10 @@ layout: default
           {% endfor %}
         </div>
 
-        {% include essays_list.html %}
+        <div class="entry">
+          <h4><a href="{{ "/essays" | prepend: site.url }}" title="Essays">Essays</a></h4>
+          {% include essays_list.html %}
+        </div>
 
         <div id="pages">
           <div class="entry">
