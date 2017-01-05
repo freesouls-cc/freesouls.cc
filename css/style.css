@@ -266,6 +266,7 @@ ol.nav {
   text-transform: uppercase;
   line-height: 1;
   text-decoration: none;
+  color: #ff0088;
 }
   .entry a.entry-date {
   	font-weight: normal;
