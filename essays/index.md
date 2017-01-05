@@ -1,8 +1,6 @@
 ---
 title: Table of Contents
-permalink: /essays/
+layout: essay
 ---
-
-
 
 {% include essays_list.html %}
