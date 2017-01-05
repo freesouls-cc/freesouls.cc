@@ -10,9 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:500,600,700,800" rel="stylesheet"> 
 </head>
 <body>
-<div id="container">
-
-  <div class="left">
+  <div class="sidebar">
 
     <div id="alpha">
       <div class="inner">
@@ -33,14 +31,32 @@
           {% include freesouls_flickr.html %}
         </div>
 
+        <div class="details">
+          <p>
+    <a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/"><img src="/img/cc.by.80.png" alt="Creative Commons BY Attribution License"></a>
+    <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/StillImage" property="dc:title" rel="dc:type">Portrait of Joi</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://50mm.jp/" property="cc:attributionName" rel="cc:attributionURL" title="Sean Wood">Sean Wood</a>
+          </p>
+        </div>
+
       </div>
     </div>
 
   </div>
+<div id="container">
 
   <div class="right">
 
     {{ content }}
+
+    {% if site.license %}
+    <div class="inner details">
+      <div class="widget-creative-commons widget">
+        <div class="widget-content">
+          Licensed under a <a href="{{ site.license_url }}">{{ site.license }}</a>.
+        </div>
+      </div>
+    </div>
+    {% endif %}
 
   </div>
 
