@@ -18,7 +18,7 @@ layout: default
           <div class="entry">
             <h4><a href="{{ post.url | prepend: site.url }}" title="{{ post.title | escape}}">{{ post.title }}&nbsp;&raquo;</a></h4>
             <div class="post">
-              <a class="entry-date" href="{{ post.url | prepend: site.url }}" title="permalink">{{ post.date | date: "%B %e, %Y"}}</a>
+              <span class="entry-date details">{{ post.date | date: "%B %e, %Y"}}</span>
               {{ post.content }}
            </div>
           </div>
