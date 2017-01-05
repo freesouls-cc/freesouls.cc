@@ -1,5 +1,5 @@
 ---
-title: Foreword by Lawrence Lessig
+title: Foreword
 author: Lawrence Lessig
 portrait: http://www.flickr.com/photos/joi/2115184003/
 image: https://farm3.static.flickr.com/2074/2115184003_3b841dee81.jpg
