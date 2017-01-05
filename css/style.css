@@ -38,6 +38,13 @@ input.button-outline[type="submit"] {
   font-size: 9pt;
   color: #606c76;
 }
+
+.callout {
+  border: 0.1rem solid #ff0088;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 0.4rem;
+}
 .sidebar .details {
   color: #FFF;
 }
@@ -318,11 +325,6 @@ ol.nav {
   }
 .flickr-freesoul-essay-pic {
   margin: .5em 0;
-  }
-.essay #more {
-  margin: 1em 0;
-  padding: 1em .5em;
-  border: 2px solid #fff;
   }
 .essay ol:not(.nav) {
   margin: 0 0 1em 2em;
