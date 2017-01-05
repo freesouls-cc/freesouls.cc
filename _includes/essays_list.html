@@ -1,7 +1,5 @@
 <div class="essays-list">
-  <h3>Essays</h3>
-
-  <ol class="nav">
+  <ol>
     {% for post in site.essays %}
     {% if post.url == page.url %}
     {% assign list_class = "on" %}

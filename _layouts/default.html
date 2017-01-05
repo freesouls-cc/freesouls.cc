@@ -23,10 +23,6 @@
     <div id="beta">
       <div class="inner">
 
-        {% if page.layout == "essay" %}
-        {% include essays_list.html %}
-        {% endif %}
-
         <div id="freesouls-flickr">
           {% include freesouls_flickr.html %}
         </div>
@@ -53,6 +49,10 @@
         </div>
         <div class="column column-33">
           {% include order.html %}
+
+          {% if page.layout == "essay" %}
+          {% include essays_list.html %}
+          {% endif %}
         </div>
       </div>
       <div class="row">
