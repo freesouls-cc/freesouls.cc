@@ -23,6 +23,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 9pt;
   color: #606c76;
 }
+.sidebar .details {
+  color: #FFF;
+}
 .right a {
   text-decoration: underline;
   font-weight: bold;
