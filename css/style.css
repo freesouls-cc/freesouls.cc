@@ -7,6 +7,7 @@ body {
   letter-spacing: 0;
   font-family: Helvetica, Arial, sans-serif;
   background: #000000;
+  color: #333333;
   }
 pre {
   margin-bottom: 1em;
@@ -20,6 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .details {
   font-size: 9pt;
+  color: #606c76;
 }
 .right a {
   text-decoration: underline;
@@ -42,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 /* @group Structure */
 #container {
   margin-left: 330px;
-  background: #F2F2F2;
+  background: #F8F8F8;
   height: 100%;
   }
 .sidebar {
@@ -61,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 .right {
   width: 100%;
-  background: #F2F2F2;
+  background: #F8F8F8;
   padding-top: 15px;
   }
 .container {
