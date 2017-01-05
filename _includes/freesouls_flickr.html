@@ -5,8 +5,8 @@
 <div id="freesoul-featured">
   <a id="pic" href="{{ feat_link }}" title="{{ feat_esc_title }}">
     <img alt="{{ feat_esc_title }}" src="{{ feat_pic.url_m }}">
+    <span id="name" href="{{ feat_link }}" title="{{ feat_esc_title }}">{{ feat_pic.title }}</span>
   </a>
-  <a id="name" href="{{ feat_link }}" title="{{ feat_esc_title }}">{{ feat_pic.title }}</a>
 </div>
 <div id="freesouls-grid">
   {% assign grids = site.freesoulsbook | sample: 12 %}

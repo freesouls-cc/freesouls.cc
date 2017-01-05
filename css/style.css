@@ -109,7 +109,11 @@ h1, h2, h3, h4, h5, h6 {
 #freesouls-flickr {
   margin-bottom: 2em;
 }
+#freesoul-featured {
+  margin-bottom: 15px;
+}
 #freesoul-featured a#pic {
+  position: relative;
   box-sizing: unset;
   display: block;
   width: 290px;
@@ -122,14 +126,18 @@ h1, h2, h3, h4, h5, h6 {
   width: 290px;
   border: none;
   }
-#freesoul-featured a#name {
-  position: relative;
-  top: -22px;
-  left: 2px;
-  font-size: 14px;
-  padding:7px 10px 0 10px;
-  font-weight: normal;
-  background: #fff;
+#freesoul-featured #name {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  padding: 1px 5px;
+  border-radius: 2px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  text-transform: uppercase;
+  background: #FFFF00;
+  color: #333;
   }
 
 #freesouls-grid {
