@@ -13,3 +13,9 @@ task :gen do
   gen = FreesoulsCC::Jekyll.new("photos")
   gen.gen(FLICKR_QUERIES)
 end
+
+desc "Clean templates"
+task :gen_clean do
+  gen = FreesoulsCC::Jekyll.new("photos")
+  gen.clean(FLICKR_QUERIES)
+end

@@ -24,6 +24,13 @@ module FreesoulsCC
         }
       }
     end
+
+    def clean(queries)
+      queries[:tags].each { |tag|
+        dir = "_#{tag}"
+        FileUtils.rm_r dir
+      }
+    end
   end
 
   class Flickr
