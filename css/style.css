@@ -6,7 +6,6 @@
 body {
   letter-spacing: 0;
   font-family: Helvetica, Arial, sans-serif;
-  color: #fff;
   background: #000000;
   }
 pre {
@@ -24,7 +23,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .right a {
   text-decoration: underline;
-  color: #fff;
   font-weight: bold;
   }
 .right .nav a:hover {
@@ -44,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 /* @group Structure */
 #container {
   margin-left: 330px;
-  background: #0099CC;
+  background: #F2F2F2;
   height: 100%;
   }
 .sidebar {
@@ -54,6 +52,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   width: 330px;
   background: #000000;
+  color: #fff;
   }
   #alpha {
     height: 450px;
@@ -61,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 .right {
   width: 100%;
-  background: #0099CC;
+  background: #F2F2F2;
   padding-top: 15px;
   }
 .container {
@@ -200,7 +199,6 @@ ol.nav {
   }
 .essays-list ol a {
   text-decoration: none;
-  color: #fff;
   font-weight: normal;
   }
 .essays-list li {
@@ -216,8 +214,8 @@ ol.nav {
   font-size: 120%;
   }
 .essays-list li.on {
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
   margin: .5em 0;
   padding: .5em 0;
   }
@@ -263,7 +261,7 @@ ol.nav {
   margin-top:2em;
   margin-bottom:2em;
   padding-bottom:2em;
-  border-bottom: 1px dotted #fff;
+  border-bottom: 1px dotted #d1d1d1;
   }
 .essay-blurb .source {
   display: none;
@@ -276,7 +274,7 @@ ol.nav {
   font-size: 10pt;
   margin-bottom: 1.5em;
   padding-bottom: 1.5em;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #d1d1d1;
   }
 .asset-body p {
   margin-bottom:1em;
