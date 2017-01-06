@@ -67,8 +67,7 @@ input.button-outline[type="submit"] {
   }
 .sidebar {
   display: none;
-  position: absolute;
-  overflow: hidden;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
@@ -99,7 +98,6 @@ input.button-outline[type="submit"] {
   padding-top: 15px;
   }
 .container {
-  margin: 0;
   padding: 0 15px;
 }
   #gamma,
@@ -139,6 +137,9 @@ input.button-outline[type="submit"] {
 @media (min-width: 1024px) {
   .sidebar {
     display: block;
+  }
+  .container {
+    margin: 0;
   }
   #container {
     margin-left: 330px;
