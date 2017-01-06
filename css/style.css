@@ -125,14 +125,14 @@ input.button-outline[type="submit"] {
   #delta {
     }
 
-@media (min-width: 40rem) {
-  .row .column.column-major {
-    flex: 0 0 66.6666%;
-    max-width: 66.6666%;
-  }
+@media (max-width: 40rem) {
   .row .column.column-minor {
-    flex: 0 0 33.3333%;
-    max-width: 33.3333%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .row .column.column-major {
+    flex: 1;
+    max-width: 100%;
   }
 }
 
