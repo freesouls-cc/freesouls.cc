@@ -54,7 +54,7 @@ Freesouls, Joi Ito has played a catalytic, communitarian,
 Mephistophelian, Pied-Piper-esque, authority-challenging, fun-loving
 role in my experiences of the possibilities of life online.
 
-FRIENDS AND ENTHUSIASTS
+### Friends and Enthusiasts
 
 To me, direct experience of what I later came to call virtual
 communities<a name="2"></a><a href="#footnote-2"
@@ -120,7 +120,7 @@ continued to track new research and theory about what cyberculture might
 mean and the ways in which online communication media influence and are
 shaped by social forces.
 
-THE VALUES OF VOLUNTEERS
+### The Values of Volunteers
 
 One of the first questions that arose from my earliest experiences
 online was the question of why people in online communities should spend
@@ -173,7 +173,7 @@ participative pedagogy, assisted by digital media and networked publics,
 that focuses on catalyzing, inspiring, nourishing, facilitating, and
 guiding literacies essential to individual and collective life.
 
-A PARTICIPATIVE PEDAGOGY
+### A Participative Pedagogy
 
 To accomplish this attention-turning, we must develop a participative
 pedagogy, assisted by digital media and networked publics, that focuses
@@ -211,7 +211,7 @@ participatory media, the dynamics of cooperation and collective action,
 the effective deployment of attention and the relatively rational and
 critical discourse necessary for a healthy public sphere.
 
-MEDIA LITERACIES
+### Media Literacies
 
 In Using Participatory Media and Public Voice to Encourage Civic
 Engagement, I wrote:

@@ -29,7 +29,7 @@ in the plans of future-oriented cultural initiatives. Sharism is also a
 mental practice that anyone can try, a social-psychological attitude to
 transform a wide and isolated world into a super-smart Social Brain.
 
-THE NEURON DOCTRINE
+### The Neuron Doctrine
 
 Sharism is encoded in the Human Genome. Although eclipsed by the many
 pragmatisms of daily life, the theory of Sharism finds basis in
@@ -92,7 +92,7 @@ private and stay "closed." They may fear the Internet creates a
 potential for abuse that they can't fight alone. However, the paradox
 is: The less you share, the less power you have.
 
-NEW TECHNOLOGIES AND THE RISE OF SHARISM
+### New Technologies and the Rise of Sharism
 
 Let's track back to 1999, when there were only a few hundred pioneer
 bloggers around the world, and no more than ten times that many readers
@@ -139,7 +139,7 @@ result, such a Micro-pipeline system is making Social Media a true
 alternative to broadcast media. These new technologies are reviving
 Sharism in our closed culture.
 
-LOCAL PRACTICE, GLOBAL GAIN
+### Local Practice, Global Gain
 
 If you happened to lose your Sharism in a bad educational or cultural
 setting, it's hard to get it back. But it's not impossible. A
@@ -195,7 +195,7 @@ wave of Social Media. However, these media rights will belong to
 everyone. You yourself can be both producer and consumer in such a
 system.
 
-SHARISM SAFEGUARDS YOUR RIGHTS
+### Sharism Safeguards Your Rights
 
 Still, many questions will be raised about Sharism as an initiative in
 new age. The main one is copyright. One concern is that any loss of
@@ -231,7 +231,7 @@ both developers and end-users to tag their works. Because the new
 licenses can be recognized by either humans or machines, it's becoming
 easier to re-share those works in new online ecosystems.
 
-THE SPIRIT OF THE WEB, A SOCIAL BRAIN
+### The Spirit of the Web, a Social Brain
 
 Sharism is the Spirit of the Age of Web 2.0. It has the consistency of a
 naturalized Epistemology and modernized Axiology, but also promises the

@@ -40,7 +40,7 @@ opportunity to reflect on the history of photography in copyright law as
 it emerged in the twilight of the 19th century and on the changes that
 we see at the dawn of the 21st.
 
-A PORTRAIT OF THE CAMERA AS A YOUNG ARTIST
+### A Portrait of the Camera as a Young Artist
 
 It is well-documented that the philosophical justification of copyright
 is premised on the idea of the romantic author, the sole suffering

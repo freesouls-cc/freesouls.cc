@@ -58,7 +58,7 @@ that would have been seen, until recently, as too chaotic ever to work
 (and are still seen so be many). But it is time we acknowledge that
 systems work best by making work human.
 
-MODERN TIMES
+### Modern Times
 
 Modern times were hard enough. Trains and planes, telegraph and
 telephone, all brought many people into the same causal space. The
@@ -121,7 +121,7 @@ bureaucratic rationalization, perfect-market rationalization also had
 successes. But, like its predecessor, its limits as an approach to human
 systems design are becoming cleare
 
-WORK, TRUST AND PLAY
+### Work, Trust and Play
 
 Pricing perfectly requires perfect information. And perfect information,
 while always an illusion, has become an ever receding dream in a world
@@ -224,7 +224,7 @@ about what is worthwhile, it implements the belief that
 machines−technical systems−are trustworthy, while their human users are
 malevolent, incompetent, or both.
 
-REINTRODUCING THE HUMAN
+### Reintroducing the Human
 
 Taylorism, the Bell system and trusted computing are all efforts to
 remove human agency from action and replace it with well-designed,

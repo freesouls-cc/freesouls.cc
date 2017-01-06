@@ -42,7 +42,7 @@ to reflect on the joy of travel, but also to imagine how much better it
 can get. In many ways, I want to celebrate the world that travel brings
 to me, as well as how happy I am to be going home.
 
-HIGH-VELOCITY LIFE
+### High-Velocity Life
 
 Following the twitter jet stream of friends around the world, I wonder
 about life lived at such high velocities−velocities that are physical,
@@ -92,7 +92,7 @@ small society that you can find in this book. Is it possible that the
 golden age of travel is not a thing of the past, but the way of the
 future?
 
-ENGINEERING SERENDIPITY, PROMOTING SUSTAINABILITY
+### Engineering Serendipity, Promoting Sustainability
 
 A new system of intelligent travel is already being imagined, and built.
 But the prospects of developing online, interconnected systems−ones
@@ -122,7 +122,7 @@ whether we are flying from Narita to Helsinki or just living a life
 online. A system as I describe it might nudge us, but it won't judge us.
 What we do with this information is up to us.
 
-THE RETURN HOME: THROW OUT THE CLOCKS
+### The Return Home: Throw out the Clocks
 
 In the world of intelligent travel, information will no longer be hard
 to find. Information will find us. The only thing that will be hard is

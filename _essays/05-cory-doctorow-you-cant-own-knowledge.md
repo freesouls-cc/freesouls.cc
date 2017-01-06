@@ -44,7 +44,7 @@ of faulty reasoning about knowledge. Faulty ideas about knowledge are
 troublesome at the best of times, but they're deadly to any country
 trying to make a transition to a "knowledge economy."
 
-READ IT, OWN IT
+### Read It, Own It
 
 Fundamentally, the stuff we call "intellectual property" is just
 knowledge and information−ideas, words, tunes, blueprints, identifiers,
@@ -71,7 +71,7 @@ insulting cack- handed "You wouldn't steal a car" anti-piracy short film
 knows, this is exactly the kind of behavior that property-talk inspires
 when it comes to knowledge.
 
-IDENTITY, THEFT
+### Identity, Theft
 
 But there's plenty of stuff out there that's valuable even if it's not
 property. For example, my daughter was born in February, 2008. She's not
@@ -101,7 +101,7 @@ like musical mashups. These works are not property−and shouldn't be
 treated as such−but for every one of them, there's an entire ecosystem
 of people with a legitimate interest in them.
 
-OWNING (UP TO) HISTORY
+### Owning (up to) History
 
 I once heard the WIPO representative for the European association of
 commercial broadcasters explain that, given all the investment his
@@ -132,7 +132,7 @@ clumsy remake of the property system.
 The point is that if you try to own your knowledge, it might end up
 owning you.
 
-STEAL THIS STORY, SELL SOME BOOKS
+### Steal This Story, Sell Some Books
 
 So let me see if I can make this point clear, even to you punters out
 there. Joi Ito's book is an existence proof--since everyone is all over

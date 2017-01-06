@@ -26,9 +26,7 @@ links:
 chinese: /yeeyan/foreword-by-lawrence-lessig.html
 ---
 
-IN HIS FOREWORD TO THE BOOK, LESSIG WRITES THAT YOU UNDERSTAND YOUR
-SUBJECTS "BY LEARNING TO SEE THEM IN A CERTAIN WAY." WHAT IS THAT
-CERTAIN WAY?
+### In his foreword to the book, Lessig writes that you understand your subjects "by learning to see them in a certain way." What is that certain way?
 
 I think I'm trying to get a mental image of a person, certain
 expressions, or what I think that person is about. I'm trying to capture
@@ -87,7 +85,7 @@ distracting. We were having a very heated discussion and I was taking
 all of these pictures. But he credited me later because afterward those
 pictures turned out the best.
 
-IN YOUR MIND, WHAT IS A 'FREESOUL' ?
+### In your mind, what is a 'Freesoul' ?
 
 A freesoul is somewhat of a pun. On the one hand it means you are free,
 liberated. You, as a human spirit, are open. And then, it also has the
@@ -128,7 +126,7 @@ ultimate gift. In one way it's kind of vain. \[laughs\] But in another
 way it's wonderful. A Wikipedia article on some person but with no
 picture is sad.
 
-BESIDES WIKIPEDIA, HOW DO YOU IMAGINE THESE PHOTOS BEING USED?
+### Besides Wikipedia, how do you imagine these photos being used?
 
 They can be used in textbooks and in mainstream media articles about the
 person. Now they can get a picture that represents the person, at least
@@ -157,8 +155,7 @@ educational point, so people understand that, in addition to the
 Creative Commons licenses, we need people to provide other rights in
 cases where the law requires such rights to be cleared before reuse.
 
-WHAT HAVE YOU LEARNED ABOUT THE PEOPLE IN THESE NETWORKS, JUST IN THE
-PAST YEAR?
+### What have you learned about the people in these networks, just in the past year?
 
 That's a good question. I think that at least Creative Commons has
 become much more mainstream. Creative Commons has moved from a fringy
@@ -210,7 +207,7 @@ images, and a lot of the photographers were professionals. This is
 beyond what anybody has done in the US. A lot of the progress that we're
 making is international.
 
-WHAT ARE YOUR PERSONAL REALIZATIONS OR EXPERIENCES?
+### What are your personal realizations or experiences?
 
 Well, we're all getting old, if you look at these pictures. But there's
 another thing, though, about this book: the number of
@@ -256,8 +253,7 @@ increasing revenue stream for professional photographers. I think most
 amateurs, including myself, are paying homage to the professionals and
 not trying to "compete" with them.
 
-DESPITE THE EXISTENCE OF SOCIAL SOFTWARE, WHAT IS STILL IMPORTANT ABOUT
-MEETING PEOPLE FACE-TO-FACE?
+### Despite the existence of social software, what is still important about meeting people face-to-face?
 
 For me, the right way to use a lot of the new social software is by
 making it easier to spend more physical time with the people you like
@@ -299,7 +295,7 @@ increases your travel, it doesn't decrease it. It is great because you
 get to meet all these people. But it is bad for the environment, and bad
 for our jet lag.
 
-HOW WOULD YOU CHARACTERIZE YOUR CONTRIBUTIONS TO FREE CULTURE?
+### How would you characterize your contributions to free culture?
 
 I think it's mostly incremental. I think there is very little we
 actually do all by ourselves, and I hate saying, "I did this" or "I did

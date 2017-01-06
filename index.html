@@ -16,7 +16,7 @@ layout: default
         <div id="posts">
           {% for post in site.tags.home %}
           <div class="entry">
-            <h4><a href="{{ post.url | prepend: site.url }}" title="{{ post.title | escape}}">{{ post.title }}</a></h4>
+            <h3><a href="{{ post.url | prepend: site.url }}" title="{{ post.title | escape}}">{{ post.title }}</a></h3>
             <div class="post">
               <span class="entry-date details">{{ post.date | date: "%B %e, %Y"}}</span>
               {{ post.content }}
@@ -28,7 +28,7 @@ layout: default
         <div id="pages">
           {% for post in site.book %}
           <div class="entry">
-            <h4><a href="{{ post.url | prepend: site.url }}" title="{{ post.title }}">{{ post.title }}</a></h4>
+            <h3><a href="{{ post.url | prepend: site.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
             <div class="post">
               {{ post.description }}
               <a href="{{ post.url }}" title="read on">read&nbsp;on&nbsp;&raquo;</a>
@@ -38,13 +38,13 @@ layout: default
         </div>
 
         <div class="entry">
-          <h4><a href="{{ "/essays" | prepend: site.url }}" title="Essays">Essays</a></h4>
+          <h3><a href="{{ "/essays" | prepend: site.url }}" title="Essays">Essays</a></h3>
           {% include essays_list.html %}
         </div>
 
         <div id="pages">
           <div class="entry">
-            <h4><a href="{{ "/modelrelease" | prepend: site.url }}" title="Model Release">Model Release</a></h4>
+            <h3><a href="{{ "/modelrelease" | prepend: site.url }}" title="Model Release">Model Release</a></h3>
             <div class="post">
               <p>
   We asked all of the generous people who appear in this book to agree
