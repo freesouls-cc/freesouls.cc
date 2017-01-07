@@ -154,7 +154,7 @@ input.button-outline[type="submit"] {
 }
 
 @media (min-width: 1024px) {
-  .sidebar {
+  .flexbox .sidebar {
     display: block;
   }
   .container {
