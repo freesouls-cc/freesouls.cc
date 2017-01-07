@@ -85,6 +85,7 @@ input.button-outline[type="submit"] {
   color: #fff;
   border-right: 1px solid #000000;
   }
+#omega,
 #alpha,
 #beta {
   width: 330px;
@@ -136,6 +137,10 @@ input.button-outline[type="submit"] {
     }
   #delta {
     }
+#footer {
+  display: flex;
+  flex: 1;
+}
 
 @media (max-width: 40rem) {
   .row .column.column-minor {
