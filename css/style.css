@@ -21,7 +21,7 @@ pre {
   margin-bottom: 1em;
 }
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #09c;
   }
 h1, h2, h3, h4, h5, h6 {
@@ -58,13 +58,13 @@ input.button-outline[type="submit"] {
   margin-bottom: 1em;
   border-radius: 0.4rem;
 }
+.sidebar a {
+  text-decoration: none;
+}
 .sidebar .details {
   color: #FFF;
 }
-.right a {
-  text-decoration: underline;
-  }
-.right .nav a:hover {
+.nav a:hover {
   text-decoration: underline;
   }
 /* @end */
@@ -279,21 +279,18 @@ ol.nav {
   margin:.5em 0 0 0;
   padding:0 0 0 1.6em;
   }
-.essays-list {
-  margin: 0 0 1em;
-  }
-.essays-list ol a {
+ol a {
   text-decoration: none;
   font-weight: normal;
   }
-.essays-list li {
+li {
   margin-bottom: 5px;
   line-height:130%;
   }
-.essays-list .listed-title {
+li .listed-title {
   font-weight: bold;
   }
-.essays-list li.on {
+li.on {
   border-top: 1px solid #d1d1d1;
   border-bottom: 1px solid #d1d1d1;
   margin: .5em 0;
