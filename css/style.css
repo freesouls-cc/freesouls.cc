@@ -146,7 +146,6 @@ input.button-outline[type="submit"] {
   #gamma,
   #gamma h2,
   #gamma h3 {
-    font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1;
@@ -233,7 +232,6 @@ input.button-outline[type="submit"] {
   left: 8px;
   padding: 1px 5px;
   border-radius: 2px;
-  font-family: 'Work Sans', sans-serif;
   font-weight: 700;
   font-size: 13px;
   text-transform: uppercase;
@@ -332,7 +330,6 @@ li.on {
 }
 .asset-body h3,
 .entry h3 a {
-  font-family: 'Work Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
