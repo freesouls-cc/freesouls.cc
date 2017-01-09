@@ -1,5 +1,5 @@
 <div class="essays-list">
-  <ol>
+  <ol class="nav">
     {% for post in site.essays %}
     {% if post.url == page.url %}
     {% assign list_class = "on" %}
@@ -10,7 +10,7 @@
       <a href="{{ post.url | prepend: site.url }}">
         <span class="listed-title">{{ post.title }}</span></a>
         {% if post.author %}
-        by
+        <br/>
         {{ post.author }}
         {% endif %}
     </li>
