@@ -2,29 +2,4 @@
 layout: default
 ---
 
-    <div id="delta">
-        <div class="entry-asset asset hentry">
-    <div class="asset-header">
-        <h1 id="page-title" class="asset-name entry-title">{{ page.title }}</h1>
-        <div class="asset-meta">
-    <span class="byline">
-
-      By <span class="vcard author"><a class="fn url" href="{{ site.url }}">{{ page.author }}</a></span> on <abbr class="published" >{{ page.date | date: "%B %d, %Y"}}</abbr>
-
-    </span>
-
-    </div>
-    </div>
-
-    <div class="asset-content entry-content">
-
-        <div class="asset-body">
-          {{ content }}
-        </div>
-
-
-    </div>
-    <div class="asset-footer">
-    </div>
-</div>
-      </div>
+{% include post.html post=page %}

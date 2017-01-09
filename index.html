@@ -15,13 +15,7 @@ layout: default
 
         <div class="posts">
           {% for post in site.tags.home %}
-          <div class="entry">
-            <h3><a href="{{ post.url | prepend: site.url }}" title="{{ post.title | escape}}">{{ post.title }}</a></h3>
-            <div class="post">
-              <span class="entry-date details">{{ post.date | date: "%B %e, %Y"}}</span>
-              {{ post.content }}
-           </div>
-          </div>
+            {% include post.html post=post %}
           {% endfor %}
         </div>
 

@@ -331,15 +331,6 @@ ol.nav {
   .entry .post {
   	line-height:150%;
     }
-.asset-name {
-  font-size: 12pt;
-  font-weight: normal;
-  margin:0 0 4px;
-  line-height:130%;
-  }
-.asset-content {
-  line-height: 140%;
-  }
 .essay-blurb {
   margin-top:2em;
   margin-bottom:2em;
@@ -361,17 +352,6 @@ ol.nav {
   margin-bottom: 1.5em;
   padding-bottom: 1.5em;
   border-bottom: 1px solid #d1d1d1;
-  }
-.asset-body p {
-  margin-bottom:1em;
-  line-height:150%;
-  }
-.asset-body blockquote {
-  margin: 0 0 1em 2em;
-  font-size: 95%;
-  }
-.asset-body ul {
-  margin: 0 0 1em 1.2em;
   }
 /* @end */
 /* @group Essays */

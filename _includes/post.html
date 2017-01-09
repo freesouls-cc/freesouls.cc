@@ -1,0 +1,7 @@
+<div class="entry">
+<h3><a href="{{ include.post.url | prepend: site.url }}" title="{{ include.post.title | escape}}">{{ include.post.title }}</a></h3>
+<div class="post">
+  <span class="entry-date details">{{ include.post.date | date: "%B %e, %Y"}}</span>
+  {{ include.post.content }}
+</div>
+</div>
