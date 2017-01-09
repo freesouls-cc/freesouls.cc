@@ -26,6 +26,7 @@ a {
   }
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0;
+  font-size: 1em;
 }
 .button,
 button,
@@ -311,7 +312,6 @@ ol.nav {
   }
 .asset-body h3,
 .entry h3 {
-  font-size: 1em;
   margin-bottom: 1rem;
 }
 .entry h3 {
