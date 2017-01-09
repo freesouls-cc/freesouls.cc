@@ -1,13 +1,14 @@
 {% assign esc_title = include.pic.title | escape %}
 {% assign tags= include.pic.tags | split: " " %}
 
-<p></p>
-<h2>{{ include.pic.title }}</h2>
-<h4>{{ include.pic.datetaken | date: "%R, %A, %B %e, %Y" }}</h4>
+<h2 id="page-title">{{ include.pic.title }}</h2>
+<p>
+  {{ include.pic.datetaken | date: "%R, %A, %B %e, %Y" }}
+</p>
 <a id="pic" href="http://www.flickr.com/photos/{{ include.pic.pathalias }}/{{ include.pic.id }}" title="{{ esc_title }}">
   <img alt="{{ esc_title }}" src="{{ include.pic.url_m }}" width="433">
 </a>
-<p>
+<p class="details">
   {% for tag in tags %}
   <a href="http://www.flickr.com/photos/{{ include.pic.pathalias }}/tags/{{ tag }}/">{{ tag }}</a> &nbsp;
   {% endfor %}

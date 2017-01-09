@@ -355,7 +355,7 @@ ol.nav {
   }
 /* @end */
 /* @group Essays */
-.essay #page-title {
+#page-title {
   font-size: 14pt;
   margin: 0;
   line-height: 110%;
