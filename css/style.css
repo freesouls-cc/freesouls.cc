@@ -290,6 +290,9 @@ li {
 li .listed-title {
   font-weight: bold;
   }
+li .byline {
+  display: block;
+}
 li.on {
   border-top: 1px solid #d1d1d1;
   border-bottom: 1px solid #d1d1d1;
