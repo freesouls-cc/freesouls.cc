@@ -202,6 +202,7 @@ input.button-outline[type="submit"] {
   }
 #freesoul-featured #name {
   position: absolute;
+  max-width: 200px;
   bottom: 8px;
   left: 8px;
   padding: 1px 5px;
