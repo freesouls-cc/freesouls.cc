@@ -64,6 +64,9 @@ input.button-outline[type="submit"] {
   margin-bottom: 1em;
   border-radius: 0.4rem;
 }
+.callout-light {
+  border: 0.1rem solid #cfcfcf;
+}
 .callout form {
   margin-bottom: 1rem;
 }
@@ -84,6 +87,9 @@ input.button-outline[type="submit"] {
 .nav a:hover {
   text-decoration: underline;
   }
+.toc-heading {
+  text-transform: uppercase;
+}
 /* @end */
 /* @group Utility */
 .inner {

@@ -1,4 +1,7 @@
-<div class="details">
+<div class="details callout callout-light">
+  <p class="toc-heading">
+  Table of Contents
+  </p>
   <ul class="nav">
     <li>
       <a href="{{ "/pic" | prepend: site.url }}">
@@ -9,4 +12,14 @@
     </li>
   </ul>
   {% include essays_list.html %}
+  <ul class="nav">
+    <li>
+      <a href="{{ "/modelrelease" | prepend: site.url }}">
+        <span class="listed-title">Model Release</span></a>
+    </li>
+    <li>
+      <a href="{{ "/errata" | prepend: site.url }}">
+        <span class="listed-title">Errata</span></a>
+    </li>
+  </ul>
 </div>
