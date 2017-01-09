@@ -28,10 +28,17 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0;
   font-size: 1em;
 }
-ol {
-  list-style: decimal outside;
+ol, ul {
+  list-style-position: outside;
   padding-left: 1.2em;
 }
+ol {
+  list-style-type: decimal;
+}
+ul {
+  list-style-type: square;
+}
+
 .button,
 button,
 input[type="button"],
@@ -270,15 +277,6 @@ input.button-outline[type="submit"] {
 
 /* @group Navigation */
 
-ul.nav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  }
-ol.nav {
-  margin:.5em 0 0 0;
-  padding:0 0 0 1.6em;
-  }
 ol a {
   text-decoration: none;
   font-weight: normal;
