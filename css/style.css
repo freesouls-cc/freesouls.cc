@@ -303,10 +303,6 @@ ol.nav {
 
 
 /* @group Entries */
-#posts {
-  margin: 0 0 20px;
-  border-bottom: 1px dotted #fff;
-  }
 .entry {
   margin: 0 0 20px 0;
   }

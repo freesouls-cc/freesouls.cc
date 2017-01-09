@@ -13,7 +13,7 @@ layout: default
 
     <div id="delta">
 
-        <div id="posts">
+        <div class="posts">
           {% for post in site.tags.home %}
           <div class="entry">
             <h3><a href="{{ post.url | prepend: site.url }}" title="{{ post.title | escape}}">{{ post.title }}</a></h3>
