@@ -64,6 +64,17 @@ input.button-outline[type="submit"] {
   margin-bottom: 1em;
   border-radius: 0.4rem;
 }
+.callout form {
+  margin-bottom: 1rem;
+}
+.buy-now form {
+  display: inline;
+}
+.book-price {
+  font-size: 1.75em;
+  font-weight: 300;
+  color: #7D7D7D;
+}
 .sidebar a {
   text-decoration: none;
 }
@@ -298,8 +309,6 @@ li.on {
   }
 
 /* @end */
-
-
 
 /* @group Entries */
 .entry {
