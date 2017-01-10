@@ -167,7 +167,7 @@ input.button-outline[type="submit"] {
   flex: 1;
 }
 
-@media (max-width: 40rem) {
+@media (max-width: 50rem) {
   .row .column.column-minor {
     flex: 0 0 50%;
     max-width: 50%;
@@ -178,7 +178,7 @@ input.button-outline[type="submit"] {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1120px) {
   .flexbox .sidebar {
     display: block;
   }
