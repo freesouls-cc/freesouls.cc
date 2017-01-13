@@ -1,6 +1,7 @@
 ---
 author: Christopher Adams
 title: Get the Book
+published: false
 ---
 
 LIMITED EDITION ON SALE
