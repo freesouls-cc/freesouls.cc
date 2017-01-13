@@ -106,7 +106,7 @@ input.button-outline[type="submit"] {
 }
 #main {
   display: flex;
-  flex: 1;
+  flex: 1 0 auto;
 }
 #footer {
   display: flex;
