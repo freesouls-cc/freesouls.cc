@@ -104,7 +104,7 @@ input.button-outline[type="submit"] {
   display: flex;
   flex: 1;
 }
-#container {
+.content {
   background: #F8F8F8;
   flex: 1;
   }
