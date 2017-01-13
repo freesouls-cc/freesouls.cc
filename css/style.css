@@ -90,6 +90,9 @@ input.button-outline[type="submit"] {
 .toc-heading {
   text-transform: uppercase;
 }
+.read-on:after {
+  content: ' \00BB';
+}
 /* @end */
 /* @group Utility */
 .inner {

@@ -8,4 +8,4 @@ published: false
 
 The first free release of VOLUME 1 is NOW AVAILABLE.
 
-<a href="{{ "/thebooks/FREESOULS-1.0.pdf" | prepend: site.url }}">Download the PDF&raquo;</a> [16.6 MB]
+<a class="read-on" href="{{ "/thebooks/FREESOULS-1.0.pdf" | prepend: site.url }}">Download the PDF</a> [16.6 MB]

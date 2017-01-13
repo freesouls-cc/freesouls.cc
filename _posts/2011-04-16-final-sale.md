@@ -25,6 +25,6 @@ GET THE BOXED SET. (${{ site.orders.box }} + sh.)<br />
 </form>
 <br />
 
-<a href= "/thebooks/" title="Take a look inside">Take a look inside &raquo;</a><br /><br />
+<a class="read-on" href= "/thebooks/" title="Take a look inside">Take a look inside</a><br /><br />
 
-<a href= "/order/" title="Order details">Order details &raquo;</a>
+<a class="read-on" href= "/order/" title="Order details">Order details</a>
