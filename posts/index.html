@@ -1,0 +1,11 @@
+---
+title: Posts
+layout: page
+collection: posts
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+    {% include post.html post=post %}
+  {% endfor %}
+</div>
