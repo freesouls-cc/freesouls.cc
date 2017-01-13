@@ -1,7 +1,7 @@
 title: Freesouls.cc
 description: ""
 exclude: [README.md, LICENSE.txt, Gemfile, Gemfile.lock, Rakefile, config, lib]
-gems: ["jekyll-paginate", "jekyll-feed"]
+gems: ["jekyll-paginate", "jekyll-feed", "jekyll-redirect-from"]
 
 url: https://freesouls.cc
 

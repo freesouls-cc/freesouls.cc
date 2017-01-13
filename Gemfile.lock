@@ -145,6 +145,7 @@ DEPENDENCIES
   github-pages (= 104)
   jekyll-feed
   jekyll-paginate
+  jekyll-redirect-from
   rake
 
 BUNDLED WITH
