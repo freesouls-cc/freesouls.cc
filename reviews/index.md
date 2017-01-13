@@ -2,6 +2,8 @@
 title: What People are saying about FREESOULS
 layout: page
 collection: reviews
+redirect_from:
+    - /what-people-are-saying-about-freesouls.html
 ---
 
 Freesouls Book and Neoteny Singapore Launch [Jon
