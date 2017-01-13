@@ -8,7 +8,6 @@ html {
 }
 body {
   min-height: 100%;
-  flex-direction: column;
   letter-spacing: 0;
   font-family: 'Work Sans', sans-serif;
   font-feature-settings: "ss01" 1, "ss02" 1;
@@ -100,9 +99,17 @@ input.button-outline[type="submit"] {
   }
 /* @end */
 /* @group Structure */
+#page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 #main {
   display: flex;
   flex: 1;
+}
+#footer {
+  display: flex;
 }
 .content {
   background: #F8F8F8;
@@ -165,10 +172,6 @@ input.button-outline[type="submit"] {
     font-weight: 800;
     line-height: 1.1;
     }
-#footer {
-  display: flex;
-  flex: 1;
-}
 
 @media (max-width: 50rem) {
   .row .column.column-minor {
