@@ -3,6 +3,15 @@ title: Share this book
 author: Christopher Adams
 portrait: http://www.flickr.com/photos/joi/2829609654/
 image: https://farm4.static.flickr.com/3094/2829609654_4520d3ff0e.jpg
+bio: >
+  Christopher Adams is a writer, publisher, and software developer. He
+  works on free software and free culture, and specializes in
+  photography and web technologies.
+links:
+    - name: website
+      url: https://christopheradams.io/
+    - name: photos
+      url: https://www.flickr.com/photos/christopheradams/
 chinese: /yeeyan/share-this-book.html
 ---
 
