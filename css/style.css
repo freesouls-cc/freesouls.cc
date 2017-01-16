@@ -215,23 +215,23 @@ input.button-outline[type="submit"] {
   margin-bottom: 2em;
 }
 #freesoul-featured {
+  position: relative;
   margin-bottom: 15px;
 }
-#freesoul-featured a#pic {
-  position: relative;
-  box-sizing: unset;
+#freesoul-featured a.pic {
   display: block;
-  width: 290px;
+  width: 294px;
   overflow: hidden;
   padding: 1px;
   background: #fff;
   border: 1px solid #000;
+  line-height: 0;
   }
 #freesoul-featured img {
-  width: 290px;
+  width: 294px;
   border: none;
   }
-#freesoul-featured #name {
+#freesoul-featured .name {
   position: absolute;
   max-width: 200px;
   bottom: 8px;
@@ -248,6 +248,7 @@ input.button-outline[type="submit"] {
 #freesouls-grid {
   width:315px;
   overflow: hidden;
+  line-height: 0;
   }
 #freesouls-grid a {
   display: block;

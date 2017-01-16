@@ -3,10 +3,10 @@
 {% assign feat_esc_title = feat_pic.title | escape %}
 {% capture feat_link %}http://www.flickr.com/photos/{{ feat_pic.pathalias }}/{{ feat_pic.id }}{% endcapture %}
 <div id="freesoul-featured">
-  <a id="pic" href="{{ feat_link }}" title="{{ feat_esc_title }}">
+  <a class="pic" href="{{ feat_link }}" title="{{ feat_esc_title }}">
     <img alt="{{ feat_esc_title }}" src="{{ feat_pic.url_m }}">
-    <span id="name" href="{{ feat_link }}" title="{{ feat_esc_title }}">{{ feat_pic.title }}</span>
   </a>
+  <a class="name" href="{{ feat_link }}" title="{{ feat_esc_title }}">{{ feat_pic.title }}</a>
 </div>
 <div id="freesouls-grid">
   {% assign grids = site.freesoulsbook | sample: 12 %}
@@ -14,6 +14,6 @@
     {% assign grid_pic = site.data.photos[grid.slug] %}
     {% assign grid_esc_title = grid_pic.title | escape %}
     {% capture grid_link %}http://www.flickr.com/photos/{{ grid_pic.pathalias }}/{{ grid_pic.id }}{% endcapture %}
-  <a href="{{ grid_link }}" title="{{ grid_esc_title }}"><img border="1"  alt="{{ grid.esc_title }}" src="{{ grid_pic.url_sq }}"></a>
+  <a href="{{ grid_link }}" title="{{ grid_esc_title }}"><img alt="{{ grid.esc_title }}" src="{{ grid_pic.url_sq }}"></a>
   {% endfor %}
 </div>
