@@ -80,6 +80,7 @@ a {
   padding: 1px;
   background: #fff;
   border: 1px solid #000;
+  line-height: 0;
   }
 #freesoul-featured img {
   width: 290px;
@@ -87,7 +88,7 @@ a {
   }
 #freesoul-featured a#name {
   position: relative;
-  top: -22px;
+  top: -24px;
   left: 2px;
   font-size: 14px;
   padding:7px 10px 0 10px;
@@ -98,6 +99,7 @@ a {
 #freesouls-grid {
   width:315px;
   overflow: hidden;
+  line-height: 0;
   }
 #freesouls-grid a {
   display: block;
