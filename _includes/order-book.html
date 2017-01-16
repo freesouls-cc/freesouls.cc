@@ -1,8 +1,7 @@
+{% assign thumb = "/thebooks/thumbs/02-LIMITED-EDITION-cover-b_a.jpg" %}
 <div class="row order-row">
   <div class="column column-33">
-    <a href="/images/Freesouls-Limited-Cover-Full.jpg">
-      <img alt="Freesouls-Luxury-Cover-Thumb.jpg" src="{{ "/images/Freesouls-Limited-Cover-Thumb.jpg" | prepend: site.url }}"/>
-    </a>
+    <img class="order-thumb" alt="Book" src="{{ thumb | prepend: site.url }}"/>
   </div>
   <div class="column column-67 details order-details">
     {% include buy-now-book.html buy=true %}

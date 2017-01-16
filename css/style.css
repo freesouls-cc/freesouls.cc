@@ -73,6 +73,10 @@ input.button-outline[type="submit"] {
 .order-details .buy-now {
   flex: 1;
 }
+.order-thumb {
+  border: 1px solid #cfcfcf;
+  border-radius: .4em;
+}
 
 .callout {
   border: 0.1rem solid #ff0088;
