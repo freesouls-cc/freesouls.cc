@@ -36,6 +36,9 @@ ol {
 ul {
   list-style-type: square;
 }
+hr {
+  border-top: 0.1rem solid #cfcfcf;
+}
 
 .button,
 button,
