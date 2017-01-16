@@ -56,6 +56,20 @@ input.button-outline[type="submit"] {
   font-size: 9pt;
   color: #606c76;
 }
+.details-title {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.row .order-row {
+  margin-bottom: 1em;
+}
+.row .column .order-details {
+  display: flex;
+  flex-direction: column;
+}
+.order-details .buy-now {
+  flex: 1;
+}
 
 .callout {
   border: 0.1rem solid #ff0088;
