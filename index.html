@@ -19,7 +19,7 @@ layout: default
           {% endfor %}
         </div>
 
-        <div id="pages">
+        <div class="pages">
           {% for post in site.book %}
           <div class="entry">
             <h3><a href="{{ post.url | prepend: site.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
@@ -36,7 +36,7 @@ layout: default
           {% include essays_list.html %}
         </div>
 
-        <div id="pages">
+        <div class="pages">
           <div class="entry">
             <h3><a href="{{ "/modelrelease" | prepend: site.url }}" title="Model Release">Model Release</a></h3>
             <div class="post">
