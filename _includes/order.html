@@ -8,27 +8,8 @@ All Numbered.<br/>
 <a class="toc-heading read-on" href= "/order/" title="Order now">Order now</a>
 </p>
 
-<div class="buy-now">
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="583028">
-<input type="submit" name="submit" value="1 Book" class="button">
-<img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-<span class="book-price">
-  ${{ site.orders.book }}
-</span>
-</div>
+{% include buy-now-book.html %}
 
-<div class="buy-now">
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="582970">
-<input type="submit" name="submit" value="1 Box Set" class="button">
-<img alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-<span class="book-price">
-  ${{ site.orders.box }}
-</span>
-</div>
+{% include buy-now-box.html %}
+
 </div>
