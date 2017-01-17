@@ -1,0 +1,16 @@
+---
+title: What People are saying about FREESOULS
+layout: page
+collection: reviews
+redirect_from:
+    - /what-people-are-saying-about-freesouls.html
+---
+
+{% for review in site.data.reviews %}
+<p>
+{{ review.title}}
+<a class="read-on" href="{{ review.url }}" title="{{ review.source }}">
+  {{ review.author }}
+</a>
+</p>
+{% endfor %}
