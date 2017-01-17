@@ -425,29 +425,6 @@ a.fn-up:hover {
   }
 
 /* @end */
-/* @group TheBooks */
-
-.imageblock {
-  margin-bottom:40px;
-  width: 100%;
-  overflow: hidden;
-  }
-.imageblock .sidebyside {
-  width: 100%;
-  overflow: hidden;
-  }
-.imageblock .sidebyside .half {
-  float: left;
-  margin-right: 10px;
-  }
-.imageblock .sidebyside .half img {
-  width: 243px;
-  }
-.imageblock .caption {
-  margin-top: 10px;
-  width: 490px;
-  font-size:9pt;
-  }
 
 /* @end */
 /* @group Footer */
