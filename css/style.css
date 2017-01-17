@@ -194,6 +194,16 @@ input.button-outline[type="submit"] {
     line-height: 1.1;
     }
 
+.row.row-always {
+  flex-direction: row;
+  margin-left: -1.0rem;
+  width: calc(100% + 2.0rem);
+}
+.row.row-always .column {
+  margin-bottom: inherit;
+  padding: 0 1.0rem;
+}
+
 @media (max-width: 50rem) {
   .row .column.column-minor {
     flex: 0 0 50%;
