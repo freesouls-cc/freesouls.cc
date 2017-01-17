@@ -84,6 +84,3 @@ Joi Ito has captured and released some freesouls:
 
 Freesouls: Captured and Released:
 [Sean Bonner »](http://blog.seanbonner.com/2008/12/12/freesouls-captured-and-released/ "seanbonner.com")
-
-Freesouls on Flickr:
-[Wang Zhi-hong »](http://www.flickr.com/photos/wangzhihongdesign/4072097687/in/set-72157622725895782/ "flickr.com")
