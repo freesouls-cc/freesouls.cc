@@ -1,0 +1,14 @@
+---
+---
+
+/* TEAM */{% for person in site.data.humans %}
+	{{ person.role }}: {% if person.order != "E" %}{{ person.given }} {% endif %}{{ person.surname | upcase }}{% if person.order == "E" %} {{ person.given }}{% endif %}{% if person.twitter %}
+        Twitter: @{{ person.twitter }}{% endif %}{% if person.url %}
+        Site: {{ person.url }}{% endif %}
+{% endfor %}
+
+/* SITE */
+	Last update: {{ "now" | date: "%Y-%m-%d %H:%M" }}
+        Language: English
+        Doctype: HTML5
+        Software: Emacs, Jekyll, LaTeX

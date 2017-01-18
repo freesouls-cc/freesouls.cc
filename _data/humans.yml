@@ -1,0 +1,58 @@
+-
+  surname: Ito
+  given: Joi
+  role: Photographer
+  twitter: joi
+  url: https://joi.ito.com
+-
+  surname: Adams
+  given: Christopher
+  role: Editor
+  twitter: christopheradam
+  url: https://christopheradams.io
+-
+  surname: Chiang
+  given: Hui-hsien
+  order: E
+  role: Managing Director
+  twitter: sophietwins
+-
+  surname: Wang
+  given: Zhi-Hong
+  role: Graphic Designer
+  order: E
+  url: http://wangzhihong.com
+-
+  surname: Hsu
+  given: Yu-Wen
+  order: E
+  role: Graphic Designer
+-
+  surname: Anthony
+  given: Boris
+  role: Web Designer
+  twitter: BorisAnthony
+  url: https://borisanthony.net
+-
+  surname: Mon
+  given: Ya Feng
+  order: E
+  role: Project Manager
+-
+  surname: Smith
+  given: Pat
+  role: "Photographer's Assistant"
+-
+  surname: Tanaka
+  given: Mika
+  role: Assistant
+  twitter: mika1
+-
+  surname: Yamazaki
+  given: Fumi
+  role: Assistant
+  twitter: Fumi
+-
+  surname: Yagawa
+  given: Yuki
+  role: Assistant
