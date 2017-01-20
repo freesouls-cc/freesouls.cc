@@ -113,6 +113,24 @@ input.button-outline[type="submit"] {
 .read-on:after {
   content: '\00A0\00BB'; /* &nbsp;&raquo; */
 }
+.team {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.team .person {
+  flex: 50%;
+  margin-bottom: 1em;
+}
+.team .person .full-name {
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0;
+}
+.team .role,
+.team .person .surname {
+  text-transform: uppercase;
+}
 /* @end */
 /* @group Utility */
 .inner {

@@ -1,0 +1,17 @@
+---
+layout: page
+collection: team
+---
+
+<div class="team">
+{% for person in site.data.humans %}
+  <div class="person">
+    <div class="full-name">
+    {% if person.order != "E" %}{{ person.given }} {% endif %}
+    <span class="surname">{{ person.surname }}</span>
+    {% if person.order == "E" %}{{ person.given }}{% endif %}
+    </div>
+    <span class="role details">{{ person.role }}</span>
+  </div>
+{% endfor %}
+</div>
