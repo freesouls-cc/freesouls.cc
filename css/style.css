@@ -203,10 +203,8 @@ input.button-outline[type="submit"] {
     color: #000000;
     margin-bottom: 0;
     }
-  #gamma h3 {
-    margin-bottom: 1em;
-    }
   #gamma p {
+    margin-top: 1em;
     font-weight: 800;
     line-height: 1.1;
     }
@@ -467,9 +465,11 @@ a.fn-up:hover {
     }
   #gamma h3 {
     font-size: 33px;
-    margin-bottom: 1em;
     letter-spacing: -1px;
     }
+  #gamma .author {
+    display: none;
+  }
   #gamma p {
     font-size: 37px;
     font-weight: 800;
