@@ -20,23 +20,6 @@ layout: default
         </div>
 
         <div class="pages">
-          {% for post in site.book %}
-          <div class="entry">
-            <h3><a href="{{ post.url | prepend: site.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-            <div class="post">
-              {{ post.description }}
-              <a class="read-on" href="{{ post.url }}" title="read on">read&nbsp;on</a>
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-
-        <div class="entry">
-          <h3><a href="{{ "/essays" | prepend: site.url }}" title="Essays">Essays</a></h3>
-          {% include essays_list.html %}
-        </div>
-
-        <div class="pages">
           <div class="entry">
             <h3><a href="{{ "/modelrelease" | prepend: site.url }}" title="Model Release">Model Release</a></h3>
             <div class="post">
