@@ -198,6 +198,9 @@ input.button-outline[type="submit"] {
     text-transform: uppercase;
     line-height: 1;
     }
+  #gamma h2 {
+    font-size: 2em;
+  }
   #gamma h2,
   #gamma h3 {
     color: #000000;
