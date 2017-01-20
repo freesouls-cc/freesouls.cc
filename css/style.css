@@ -281,13 +281,15 @@ input.button-outline[type="submit"] {
   width:45px;
   height: 45px;
   }
-#freesoulslist {}
+#freesoulslist {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 #freesoulslist .list-block {
-  float: left;
-  margin: 0 0 10px 0;
-  width: 220px;
-  overflow: hidden;
-  }
+  flex: 50%;
+  margin-bottom: 10px;
+}
 #freesoulslist .img {
   float: left;
   margin: 0 10px 0 0;
@@ -445,6 +447,9 @@ a.fn-up:hover {
   .row .column.column-major {
     flex: 1;
     max-width: 100%;
+  }
+  #freesoulslist .list-block {
+    flex: 100%;
   }
 }
 
