@@ -4,9 +4,10 @@ author: Yochai Benkler
 portrait: http://flickr.com/photos/joi/536642630/
 image: https://farm2.static.flickr.com/1250/536642630_dca30f8d4d.jpg
 bio: >
-  Yochai Benkler is Jack N. and Lillian R. Berkman Professor for
-  Entrepreneurial Legal Studies at Harvard Law School, and the author of
-  The Wealth of Networks and the paper "Coase's Penguin."
+  Yochai Benkler is an Israeli-American author and the Berkman Professor
+  of Entrepreneurial Legal Studies at Harvard Law School.
+  He is the author of The Wealth of Networks and the paper Coase's
+  Penguin.
 source: From Wikipedia, the free encyclopedia
 links:
     - name: website

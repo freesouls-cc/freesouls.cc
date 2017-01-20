@@ -9,14 +9,14 @@ portrait: https://www.flickr.com/photos/joi/477842380/
 image: https://c1.staticflickr.com/1/200/477842380_ee69046f6f.jpg
 credit: Photo CC-by Mizuka
 bio: >
-  Joichi Ito (伊藤穰一), more commonly known as Joi Ito, is an
-  American-educated Japanese activist, entrepreneur and venture
-  capitalist. Ito is the CEO of Creative Commons. He is on the board of
-  Technorati, Digital Garage, WITNESS and Global Voices. He is the
-  founder and CEO of the venture capital firm Neoteny Co., Ltd. Ito’s
-  photographs have been used in The New York Times Online, BusinessWeek,
-  American Heritage and BBC News. He is the author, with Ryu Murakami,
-  of the book Dialog – Ryu Murakami × Joichi Ito.
+  Joichi "Joi" Ito (伊藤穰一), is a Japanese activist, entrepreneur,
+  venture capitalist, Director of the MIT Media Lab and Professor of the
+  Practice of Media Arts and Sciences at MIT.
+  Ito was the Chairman of Creative Commons from December 2006 until 2012.
+  His photographs have been used in The New York Times Online,
+  BusinessWeek, American Heritage, Wired News, Forbes, and BBC News.
+  He has authored and co-authored a number of books including Dialog –
+  Ryu Murakami × Joichi Ito.
 source: From Wikipedia, the free encyclopedia
 links:
     - name: website

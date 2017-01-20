@@ -4,10 +4,10 @@ author: Marko Ahtisaari
 portrait: http://flickr.com/photos/joi/2204164596
 image: https://farm3.static.flickr.com/2018/2204164596_0352b14f3f.jpg
 bio: >
-  Marko Ahtisaari is a Finnish technology entrepreneur with extensive
-  experience in the telecommunications industry. He currently works for
-  the mobile network Blyk, and is a founding investor in online travel
-  start-up Dopplr.
+  Marko Ahtisaari is a Finnish technology entrepreneur and musician, and
+  CEO and co-founder of the Sync Project.
+  In 2007 Ahtisaari became the founding investor and CEO of online
+  business travel startup Dopplr.
 source: From Wikipedia, the free encyclopedia
 links:
     - name: blog

@@ -4,12 +4,13 @@ author: Lawrence Liang
 portrait: http://flickr.com/photos/joi/564334544/
 image: https://farm2.static.flickr.com/1236/564334544_6a7fab5836.jpg
 bio: >
-  Lawrence Liang is an Indian legal researcher and lawyer of Chinese
-  descent, based in the city of Bangalore, who is known for his legal
-  campaigns on issues of public concern. He is a founder of the
-  Alternative Law Forum, and, as of 2006, has emerged as a prominent
-  spokesperson against concepts like "intellectual property". He is the
-  author of A Guide to Open Content Licenses.
+  Lawrence Liang is a legal researcher and lawyer based in the city of
+  Bangalore, who is known for his legal campaigns on issues of public
+  concern.
+  He is a co founder of the Alternative Law Forum and by 2006 had
+  emerged as a spokesperson against the politics of "intellectual
+  property".
+  He is the author of A Guide to Open Content Licenses.
 source: From Wikipedia, the free encyclopedia
 links:
     - name: website

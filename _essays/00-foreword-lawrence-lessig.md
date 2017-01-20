@@ -4,10 +4,12 @@ author: Lawrence Lessig
 portrait: http://www.flickr.com/photos/joi/2115184003/
 image: https://farm3.static.flickr.com/2074/2115184003_3b841dee81.jpg
 bio: >
-  Lawrence Lessig is an American academic. He is a professor of law at
-  Stanford Law School and founder of its Center for Internet and
-  Society. Lessig founded Creative Commons and is a board member of the
-  Electronic Frontier Foundation and of the Software Freedom Law Center.
+  Lawrence Lessig is an American academic, attorney, and political
+  activist.
+  He is the Roy L. Furman Professor of Law at Harvard Law School.
+  In 2001, he founded Creative Commons, a non-profit organization
+  devoted to expanding the range of creative works available for others
+  to build upon and to share legally.
 source: From Wikipedia, the free encyclopedia
 links:
     - name: blog

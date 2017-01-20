@@ -4,10 +4,13 @@ author: Isaac Mao
 portrait: http://flickr.com/photos/joi/1015321102/
 image: https://farm2.static.flickr.com/1336/1015321102_7778e0a266.jpg
 bio: >
-  Isaac Mao (毛向輝) is a venture capitalist and blogger based in the
-  People’s Republic of China. He is a co-founder of CNBlog.org, Director
-  of the Social Brain Foundation and Vice Presient of United Capital
-  Investment Group.
+  Isaac Mao (毛向輝) is a Chinese venture capitalist, software
+  architect, and social media researcher.
+  He is also known for co-founding CNBlogs.org, doing research in social
+  learning and for developing the philosophy of Sharism.
+  He is the director of the Social Brain Foundation, a vice president of
+  the United Capital Investment Group[2] (2004-2008) and a fellow at the
+  Berkman Center for Internet and Society.
 source: From Wikipedia, the free encyclopedia
 links:
     - name: website

@@ -4,12 +4,13 @@ author: Cory Doctorow
 portrait: http://flickr.com/photos/joi/549393610/
 image: https://farm2.static.flickr.com/1350/549393610_f6119e19fc.jpg
 bio: >
-  Cory Doctorow is a Canadian blogger, journalist and science fiction
-  author who serves as co-editor of the blog Boing Boing. He is an
-  activist in favor of liberalizing copyright laws and a proponent of
-  the Creative Commons organization, using some of their licenses for
-  his books. He is the author of Down and Out in the Magic Kingdom and
-  Little Brother.
+  Cory Doctorow is a Canadian-British blogger, journalist, and science
+  fiction author who serves as co-editor of the blog Boing Boing.
+  He is an activist in favor of liberalising copyright laws and a
+  proponent of the Creative Commons organization, using some of their
+  licenses for his books.
+  He is the author of Down and Out in the Magic Kingdom and Little
+  Brother.
 source: From Wikipedia, the free encyclopedia
 links:
     - name: blog

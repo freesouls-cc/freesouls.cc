@@ -4,11 +4,11 @@ author: Howard Rheingold
 portrait: http://flickr.com/photos/joi/2121483378/
 image: https://farm3.static.flickr.com/2131/2121483378_7ca984334f.jpg
 bio: >
-  Howard Rheingold is a critic and writer; his specialties are on the
-  cultural, social and political implications of modern communication
-  media such as the Internet, mobile telephony and virtual communities
-  (a term he is credited with inventing). He is the author of The
-  Virtual Community and Smart Mobs.
+  Howard Rheingold is a critic, writer, and teacher;
+  his specialties are on the cultural, social and political implications
+  of modern communication media such as the Internet, mobile telephony
+  and virtual communities (a term he is credited with inventing).
+  He is the author of The Virtual Community and Smart Mobs.
 source: From Wikipedia, the free encyclopedia
 links:
     - name: website
