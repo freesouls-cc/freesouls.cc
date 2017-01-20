@@ -191,26 +191,26 @@ input.button-outline[type="submit"] {
 .container {
   padding: 0 15px;
 }
-  #gamma,
-  #gamma h2,
-  #gamma h3 {
-    font-weight: 700;
-    text-transform: uppercase;
-    line-height: 1;
-    }
-  #gamma h2 {
-    font-size: 2em;
-  }
-  #gamma h2,
-  #gamma h3 {
-    color: #000000;
-    margin-bottom: 0;
-    }
-  #gamma p {
-    margin-top: 1em;
-    font-weight: 800;
-    line-height: 1.1;
-    }
+.home-title,
+.home-title h2,
+.home-title h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1;
+}
+.home-title h2 {
+  font-size: 2em;
+}
+.home-title h2,
+.home-title h3 {
+  color: #000000;
+  margin-bottom: 0;
+}
+.home-title p {
+  margin-top: 1em;
+  font-weight: 800;
+  line-height: 1.1;
+}
 
 .row.row-always {
   flex-direction: row;
@@ -461,19 +461,19 @@ a.fn-up:hover {
   .container {
     margin: 0;
   }
-  #gamma h2 {
+  .home-title h2 {
     margin-top: -12px;
     margin-left: -5px;
     font-size: 72px;
     }
-  #gamma h3 {
+  .home-title h3 {
     font-size: 33px;
     letter-spacing: -1px;
     }
-  #gamma .author {
+  .home-title .author {
     display: none;
   }
-  #gamma p {
+  .home-title p {
     font-size: 37px;
     font-weight: 800;
     line-height: 1.1;
