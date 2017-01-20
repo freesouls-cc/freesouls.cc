@@ -20,7 +20,8 @@ pre {
 }
 a {
   text-decoration: underline;
-  color: #09c;
+  font-weight: 700;
+  color: #333333;
   }
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0;
@@ -104,9 +105,6 @@ input.button-outline[type="submit"] {
 .sidebar .details {
   color: #FFF;
 }
-.nav a:hover {
-  text-decoration: underline;
-  }
 .toc-heading {
   text-transform: uppercase;
 }
@@ -293,6 +291,9 @@ input.button-outline[type="submit"] {
   background: #FFFF00;
   color: #333;
   }
+#freesoul-featured a.name {
+  text-decoration: none;
+}
 
 #freesouls-grid {
   width:315px;
@@ -336,12 +337,8 @@ input.button-outline[type="submit"] {
   margin: 5px 0 0 0;
   }
 #freesoulslist .name a {
-  font-size: 10pt;
+  font-size: 9pt;
   font-weight: normal;
-  text-decoration: none;
-  }
-#freesoulslist .name a:hover {
-  text-decoration:underline;
   }
 /* @end */
 
@@ -349,10 +346,22 @@ input.button-outline[type="submit"] {
 
 /* @group Navigation */
 
+
+.sidebar a,
+.page-folder-name a,
+#freesoulslist .name a,
 ol a {
   text-decoration: none;
-  font-weight: normal;
-  }
+  color: #09c;
+}
+.sidebar a:hover,
+.page-folder-name a:hover,
+#freesoulslist .name a:hover,
+.entry h3 a:hover,
+.nav a:hover {
+  text-decoration: underline;
+  color: #606c76;
+}
 li {
   margin-bottom: 5px;
   line-height:130%;
@@ -385,12 +394,13 @@ li.on {
 }
 .entry h3 a {
   line-height: 1;
+  text-decoration: none;
 }
 .asset-body h3,
+.entry h3,
 .entry h3 a {
   font-weight: 700;
   text-transform: uppercase;
-  text-decoration: none;
   color: #ff0088;
 }
   .entry a.entry-date {
