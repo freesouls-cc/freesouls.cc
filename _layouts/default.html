@@ -4,7 +4,7 @@
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <title>Freesouls - {{ page.title }}</title>
   <link rel="stylesheet" rev="stylesheet" href="/css/style.css" media="screen" />
-  <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed.path }}" />
+  <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed.path | prepend: "/" | prepend: site.url }}" />
 </head>
 <body>
 <div id="container">
