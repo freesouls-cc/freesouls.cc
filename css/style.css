@@ -221,41 +221,6 @@ input.button-outline[type="submit"] {
   padding: 0 1.0rem;
 }
 
-@media (max-width: 50rem) {
-  .row .column.column-minor {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-  .row .column.column-major {
-    flex: 1;
-    max-width: 100%;
-  }
-}
-
-@media (min-width: 1120px) {
-  .flexbox .sidebar {
-    display: block;
-  }
-  .container {
-    margin: 0;
-  }
-  #gamma h2 {
-    margin-top: -12px;
-    margin-left: -5px;
-    font-size: 72px;
-    }
-  #gamma h3 {
-    font-size: 33px;
-    margin-bottom: 1em;
-    letter-spacing: -1px;
-    }
-  #gamma p {
-    font-size: 37px;
-    font-weight: 800;
-    line-height: 1.1;
-    }
-}
-
 /* @end */
 /* @group Freesoul Flickr */
 
@@ -471,3 +436,38 @@ a.fn-up:hover {
   border: none;
   }
 /* @end */
+
+@media (max-width: 50rem) {
+  .row .column.column-minor {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .row .column.column-major {
+    flex: 1;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1120px) {
+  .flexbox .sidebar {
+    display: block;
+  }
+  .container {
+    margin: 0;
+  }
+  #gamma h2 {
+    margin-top: -12px;
+    margin-left: -5px;
+    font-size: 72px;
+    }
+  #gamma h3 {
+    font-size: 33px;
+    margin-bottom: 1em;
+    letter-spacing: -1px;
+    }
+  #gamma p {
+    font-size: 37px;
+    font-weight: 800;
+    line-height: 1.1;
+    }
+}
