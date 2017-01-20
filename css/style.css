@@ -17,6 +17,7 @@ body {
   }
 pre {
   margin-bottom: 1em;
+  border-left: 0.3rem solid #ff0088;
 }
 a {
   text-decoration: underline;
