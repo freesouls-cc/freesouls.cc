@@ -161,17 +161,15 @@ input.button-outline[type="submit"] {
   color: #fff;
   border-right: 1px solid #000000;
   }
-#omega,
-#alpha,
-#beta {
+.sidebar-section {
   width: 330px;
 }
-  #alpha {
-    position: relative;
-    height: 450px;
-    background: transparent url('/img/JoiIto.jpg') top left no-repeat;
-    }
-#alpha .logo {
+#sidebar-title {
+  position: relative;
+  height: 450px;
+  background: transparent url('/img/JoiIto.jpg') top left no-repeat;
+}
+#sidebar-title .logo {
   display: block;
   position: absolute;
   right: 15px;
@@ -180,7 +178,7 @@ input.button-outline[type="submit"] {
   background-image: url('/img/joi-ito-logo-300.png');
   background-size: cover;
 }
-#alpha h1 {
+#sidebar-title h1 {
   font-size: 0;
 }
 .right {
