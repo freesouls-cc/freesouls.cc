@@ -12,7 +12,7 @@ pages.
 ## Instructions
 
 ```sh
-gem install jekyll bundler
+gem install bundler
 git clone https://github.com/freesouls-cc/freesouls.cc.git
 cd freesouls.cc
 npm install
