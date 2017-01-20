@@ -7,9 +7,15 @@ collection: team
 {% for person in site.data.humans %}
   <div class="person">
     <div class="full-name">
+      {% if person.url %}
+      <a href="{{ person. url}}">
+      {% endif %}
     {% if person.order != "E" %}{{ person.given }} {% endif %}
     <span class="surname">{{ person.surname }}</span>
     {% if person.order == "E" %}{{ person.given }}{% endif %}
+      {% if person.url %}
+      </a>
+      {% endif %}
     </div>
     <span class="role details">{{ person.role }}</span>
   </div>
