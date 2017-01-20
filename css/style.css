@@ -189,6 +189,9 @@ input.button-outline[type="submit"] {
 .container {
   padding: 0 15px;
 }
+.home-title .main-title {
+  margin-bottom: 1em;
+}
 .home-title,
 .home-title h2,
 .home-title h3 {
@@ -205,8 +208,6 @@ input.button-outline[type="submit"] {
   margin-bottom: 0;
 }
 .home-title p {
-  margin-top: 1em;
-  font-weight: 800;
   line-height: 1.1;
 }
 
@@ -305,7 +306,7 @@ input.button-outline[type="submit"] {
   }
 #freesoulslist .name a {
   font-size: 9pt;
-  font-weight: normal;
+  font-weight: 400;
   }
 /* @end */
 
@@ -334,7 +335,7 @@ li {
   line-height:130%;
   }
 li .listed-title {
-  font-weight: bold;
+  font-weight: 700;
   }
 li .byline {
   display: block;
@@ -371,7 +372,7 @@ li.on {
   color: #ff0088;
 }
   .entry a.entry-date {
-  	font-weight: normal;
+  	font-weight: 400;
   	text-decoration: none;
     }
   .entry .post {
@@ -417,7 +418,7 @@ li.on {
 
 a.fn-it {
   text-decoration: none;
-  font-weight: normal;
+  font-weight: 400;
   }
 a.fn-it:hover {
   text-decoration: underline;
@@ -465,15 +466,10 @@ a.fn-up:hover {
     font-size: 72px;
     }
   .home-title h3 {
-    font-size: 33px;
+    font-size: 37px;
     letter-spacing: -1px;
-    }
+  }
   .home-title .author {
     display: none;
   }
-  .home-title p {
-    font-size: 37px;
-    font-weight: 800;
-    line-height: 1.1;
-    }
 }
