@@ -318,6 +318,7 @@ input.button-outline[type="submit"] {
 .sidebar a,
 .page-folder-name a,
 #freesoulslist .name a,
+.callout a.toc-heading,
 ol a {
   text-decoration: none;
   color: #09c;
@@ -325,6 +326,7 @@ ol a {
 .sidebar a:hover,
 .page-folder-name a:hover,
 #freesoulslist .name a:hover,
+.callout a.toc-heading:hover,
 .entry h3 a:hover,
 .nav a:hover {
   text-decoration: underline;
