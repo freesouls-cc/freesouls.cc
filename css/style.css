@@ -295,7 +295,7 @@ input.button-outline[type="submit"] {
   margin: 0 10px 0 0;
   }
 #freesoulslist .img img {
-  box-sizing: unset;
+  box-sizing: content-box;
   border-style: solid;
   display: inline;
   width: 24px;
