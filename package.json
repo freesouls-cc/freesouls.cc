@@ -8,6 +8,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "install": "git clone https://github.com/weiweihuanghuang/Work-Sans.git node_modules/Work-Sans",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
