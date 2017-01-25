@@ -4,7 +4,8 @@
   "description": "FREESOULS Captured and Released by JOI ITO ",
   "main": "index.js",
   "dependencies": {
-    "milligram": "^1.2.4"
+    "milligram": "^1.2.4",
+    "napa": "^2.3.0"
   },
   "devDependencies": {},
   "scripts": {
