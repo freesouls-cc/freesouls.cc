@@ -4,12 +4,12 @@
   "description": "FREESOULS Captured and Released by JOI ITO ",
   "main": "index.js",
   "dependencies": {
-    "milligram": "^1.2.4",
-    "napa": "^2.3.0"
+    "milligram": "^1.2.4"
   },
   "devDependencies": {},
   "scripts": {
-    "install": "napa weiweihuanghuang/Work-Sans",
+    "preinstall": "rm -Rf vendor/Work-Sans",
+    "install": "git clone --depth 1 https://github.com/weiweihuanghuang/Work-Sans.git vendor/Work-Sans",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
