@@ -207,9 +207,6 @@ input.button-outline[type="submit"] {
   color: #000000;
   margin-bottom: 0;
 }
-.home-title p {
-  line-height: 1.1;
-}
 
 .row.row-always {
   flex-direction: row;
@@ -468,10 +465,13 @@ a.fn-up:hover {
     font-size: 72px;
     }
   .home-title h3 {
-    font-size: 37px;
+    font-size: 32px;
     letter-spacing: -1px;
   }
   .home-title .author {
     display: none;
+  }
+  .home-title p {
+    font-size: 22px;
   }
 }
