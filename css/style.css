@@ -223,6 +223,16 @@ blockquote.unquote {
   padding: 0 1.0rem;
 }
 
+.row .column.column-minor {
+  flex: 0 0 66.6666%;
+  max-width: 66.6666%;
+}
+
+.row .column.column-major {
+  flex: 100%;
+  max-width: 100%;
+}
+
 /* @end */
 /* @group Freesoul Flickr */
 
@@ -446,15 +456,27 @@ a.fn-up:hover {
   }
 /* @end */
 
-@media (max-width: 50rem) {
+.row {
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .row {
+    flex-direction: row;
+  }
+
   .row .column.column-minor {
-    flex: 0 0 50%;
-    max-width: 50%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
   }
+
   .row .column.column-major {
-    flex: 1;
-    max-width: 100%;
+    flex: 0 0 66.6666%;
+    max-width: 66.6666%;
   }
+}
+
+@media (max-width: 768px) {
   #freesoulslist .list-block {
     flex: 100%;
   }
