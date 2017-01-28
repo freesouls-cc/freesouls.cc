@@ -65,6 +65,11 @@ input.button-outline[type="submit"] {
   text-transform: uppercase;
   font-weight: 700;
 }
+blockquote.unquote {
+  border: none;
+  padding: 0;
+}
+
 .row .order-row {
   margin-bottom: 1em;
 }
@@ -389,6 +394,9 @@ li.on {
 .essay-blurb .source {
   font-style: italic;
   }
+.blockquote-attr {
+  text-align: right;
+}
 
 /* @end */
 /* @group Pages */

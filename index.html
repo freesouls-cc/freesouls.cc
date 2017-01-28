@@ -36,6 +36,23 @@ layout: default
     </p>
   </div>
 </div>
+        <div class="pages">
+          <div class="entry">
+            <h3>Praise for Freesouls</h3>
+            <div class="post">
+              {% for praise in site.data.praise %}
+              <blockquote class="unquote details">
+                <div class="blockquote-quote">
+                  {{ praise.quote }}
+                </div>
+                <div class="blockquote-attr">
+                  —{{ praise.name }}
+                </div>
+              </blockquote>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
 
         <div class="pages">
           <div class="entry">
