@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="580"
+   viewBox="0 0 270.93331 153.45832"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.0 unknown"
+   sodipodi:docname="Joi-Ito-Freesouls-banner.svg"
+   inkscape:export-filename="Joi-Ito-Freesouls-banner.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="458.30684"
+     inkscape:cy="104.36399"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1413"
+     inkscape:window-height="1062"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     units="px"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="179.07058,271.0113"
+       orientation="0,1"
+       id="guide4940"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-33.67596,230.92088"
+       orientation="1,0"
+       id="guide5014"
+       inkscape:locked="false" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid5048" />
+    <sodipodi:guide
+       position="122.40944,-2.6726951"
+       orientation="0,1"
+       id="guide5050"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="8.6934516,157.99403"
+       orientation="1,0"
+       id="guide5094"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="INSIDE"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-143.54166)">
+    <image
+       sodipodi:absref="/home/christopher/Documents/Repositories/github.com/freesouls-cc/freesouls.cc/thebooks/full/05-INSIDE-freesouls-a_18.jpg"
+       xlink:href="full/05-INSIDE-freesouls-a_18.jpg"
+       style="display:inline;image-rendering:auto"
+       y="117.47501"
+       x="7.1207683e-06"
+       id="image4937"
+       preserveAspectRatio="none"
+       height="203.20001"
+       width="270.93332"
+       transform="translate(0,26.066639)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="TEXT"
+     style="display:inline"
+     transform="translate(0,-117.47502)">
+    <g
+       id="g5108"
+       transform="translate(7.1798321e-6)">
+      <flowRoot
+         xml:space="preserve"
+         id="flowRoot4978"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:25px;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;image-rendering:auto"
+         transform="matrix(0.60007698,0,0,0.60007698,422.15656,287.75508)"><flowRegion
+           style="fill:#1a1a1a"
+           id="flowRegion4974"><rect
+             style="fill:#1a1a1a"
+             id="rect4972"
+             width="1291.4286"
+             height="337.14285"
+             x="-691.42859"
+             y="-264.57144" /></flowRegion><flowPara
+           id="flowPara4976"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:'Berthold Akzidenz Grotesk BE';-inkscape-font-specification:'Berthold Akzidenz Grotesk BE, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a">FREESOULS </flowPara></flowRoot>      <flowRoot
+         transform="matrix(0.60007698,0,0,0.60007698,423.38072,318.63164)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:25px;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;image-rendering:auto"
+         id="flowRoot4986"
+         xml:space="preserve"><flowRegion
+           style="fill:#1a1a1a"
+           id="flowRegion4982"><rect
+             style="fill:#1a1a1a"
+             y="-264.57144"
+             x="-691.42859"
+             height="337.14285"
+             width="1291.4286"
+             id="rect4980" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:40px;font-family:'Berthold Akzidenz Grotesk BE';-inkscape-font-specification:'Berthold Akzidenz Grotesk BE, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a"
+           id="flowPara4984">JOI ITO</flowPara></flowRoot>      <flowRoot
+         transform="matrix(0.18725123,0,0,0.18725123,138.04853,197.98019)"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:25px;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#1a1a1a;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;image-rendering:auto"
+         id="flowRoot4994"
+         xml:space="preserve"><flowRegion
+           style="fill:#1a1a1a"
+           id="flowRegion4990"><rect
+             style="fill:#1a1a1a"
+             y="-264.57144"
+             x="-691.42859"
+             height="337.14285"
+             width="1291.4286"
+             id="rect4988" /></flowRegion><flowPara
+           style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:39.99991608px;font-family:'Berthold Akzidenz Grotesk BE';-inkscape-font-specification:'Berthold Akzidenz Grotesk BE, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#1a1a1a"
+           id="flowPara4992">CAPTURED AND RELEASED</flowPara></flowRoot>    </g>
+  </g>
+</svg>
