@@ -11,7 +11,12 @@ permalink: creative-survivors/
 <p>Stories from Freesouls.</p>
 
 {% for subject in site.data.survivors %}
-<p>{{ subject.name }}</p>
+<div id="{{ subject.name | slugify }}"
+  <p>
+    <a href="#{{ subject.name | slugify}}">
+      {{ subject.name }}
+    </a>
+  </p>
 <p>
   <a id="pic" href="{{ subject.portrait }}" title="{{ subject.name }}">
     <img alt="{{ subject.name }}" src="{{ subject.image }}" class="page-portrait">
@@ -26,4 +31,5 @@ permalink: creative-survivors/
   {% endif %}
 </p>
 {% endif %}
+</div>
 {% endfor %}
