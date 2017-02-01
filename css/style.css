@@ -17,7 +17,7 @@ body {
   }
 pre {
   margin-bottom: 1em;
-  border-left: 0.3rem solid #ff0088;
+  border-left: 0.3rem solid #FF3F90;
 }
 a {
   text-decoration: underline;
@@ -47,15 +47,15 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  background-color: #ff0088;
-  border: 0.1rem solid #ff0088;
+  background-color: #FF3F90;
+  border: 0.1rem solid #FF3F90;
 }
 .button.button-outline,
 button.button-outline,
 input.button-outline[type="button"],
 input.button-outline[type="reset"],
 input.button-outline[type="submit"] {
-  color: #ff0088;
+  color: #FF3F90;
 }
 .details {
   font-size: 9pt;
@@ -383,7 +383,7 @@ li.on {
 .entry h3 a {
   font-weight: 700;
   text-transform: uppercase;
-  color: #ff0088;
+  color: #FF3F90;
 }
   .entry a.entry-date {
   	font-weight: 400;
