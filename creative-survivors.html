@@ -1,11 +1,29 @@
 ---
 layout: page
 title: "Creative Survivors"
-collection: survivors
+collection: Volume 2
 permalink: creative-survivors/
 ---
+<div class="asset-header">
+  <h1 id="page-title" class="asset-name">Creative Survivors</h1>
+</div>
+
+<p>Stories from Freesouls.</p>
 
 {% for subject in site.data.survivors %}
 <p>{{ subject.name }}</p>
+<p>
+  <a id="pic" href="{{ subject.portrait }}" title="{{ subject.name }}">
+    <img alt="{{ subject.name }}" src="{{ subject.image }}" class="page-portrait">
+  </a>
+</p>
 <p>{{ subject.story }}</p>
+{% if subject.note %}
+<p class="details">
+  {{ subject.note }}
+  {% if subject.url %}
+  <a href="{{ subject.url }}">{{ subject.url }}</a>
+  {% endif %}
+</p>
+{% endif %}
 {% endfor %}
