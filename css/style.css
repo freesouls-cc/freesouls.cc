@@ -424,6 +424,10 @@ li.on {
   margin: 0;
   line-height: 110%;
   }
+.page-portrait {
+  max-width: 420px;
+  max-height: 420px;
+}
 .flickr-freesoul-essay-pic {
   margin: .5em 0;
   }
