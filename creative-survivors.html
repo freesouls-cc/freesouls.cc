@@ -1,0 +1,11 @@
+---
+layout: page
+title: "Creative Survivors"
+collection: survivors
+permalink: creative-survivors/
+---
+
+{% for subject in site.data.survivors %}
+<p>{{ subject.name }}</p>
+<p>{{ subject.story }}</p>
+{% endfor %}
