@@ -69,6 +69,9 @@ blockquote.unquote {
   border: none;
   padding: 0;
 }
+.freesouls {
+  text-transform: uppercase;
+}
 
 .row .order-row {
   margin-bottom: 1em;
@@ -328,7 +331,7 @@ blockquote.unquote {
 
 
 .sidebar a,
-.page-folder-name a,
+.page-nav a,
 #freesoulslist .name a,
 .callout a.toc-heading,
 ol a {
@@ -336,7 +339,7 @@ ol a {
   color: #09c;
 }
 .sidebar a:hover,
-.page-folder-name a:hover,
+.page-nav a:hover,
 #freesoulslist .name a:hover,
 .callout a.toc-heading:hover,
 .entry h3 a:hover,
@@ -410,13 +413,16 @@ li.on {
 
 /* @end */
 /* @group Pages */
-.page-folder-name {
+.page-nav {
   text-align: left;
   font-size: 10pt;
   margin-bottom: 1.5em;
   padding-bottom: 1.5em;
   border-bottom: 1px solid #d1d1d1;
   }
+.page-nav .page-collection {
+  font-weight: 700;
+}
 /* @end */
 /* @group Essays */
 #page-title {
