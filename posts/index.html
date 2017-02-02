@@ -6,6 +6,6 @@ collection: posts
 
 <div class="posts">
   {% for post in site.posts %}
-    {% include post.html post=post %}
+    {% include post.html post=post excerpt=true %}
   {% endfor %}
 </div>
