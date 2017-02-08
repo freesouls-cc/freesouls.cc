@@ -432,6 +432,7 @@ li.on {
   }
 .page-portrait {
   max-width: 420px;
+  max-width: 100%;
   max-height: 420px;
 }
 .flickr-freesoul-essay-pic {
