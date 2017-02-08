@@ -3,7 +3,9 @@
 <div class="post">
   <span class="entry-date details">{{ include.post.date | date: "%B %e, %Y"}}</span>
   {% if include.excerpt == true %}
+  <p>
   {{ include.post.excerpt }}
+  </p>
   {% else %}
   {{ include.post.content }}
   {% endif %}
