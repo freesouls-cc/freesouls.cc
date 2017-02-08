@@ -16,7 +16,7 @@ layout: default
 
         <div class="posts">
           {% for post in site.tags.home %}
-            {% include post.html post=post %}
+            {% include post.html post=post excerpt=true %}
           {% endfor %}
         </div>
 
