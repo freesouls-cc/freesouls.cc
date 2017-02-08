@@ -1,4 +1,4 @@
-title: Freesouls.cc
+title: FREESOULS
 description: "FREESOULS Captured and Released by JOI ITO"
 exclude: [README.md, LICENSE.txt, Gemfile, Gemfile.lock, Rakefile, config, lib]
 gems: ["jekyll-paginate", "jekyll-feed", "jekyll-redirect-from"]
