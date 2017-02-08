@@ -9,6 +9,9 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{{ site.title }} - {{ page.title }}</title>
+  {% assign description = page.subtitle %}
+  <meta name="description" content="{{ description | escape }}">
+
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="author" href="humans.txt" />
   <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css" media="screen" />
@@ -16,6 +19,28 @@
   <link rel="stylesheet" href="/css/style.css" media="screen" />
   <link rel="alternate" type="application/atom+xml" title="Recent Entries" href="{{ site.feed.path | prepend: "/" | prepend: site.url }}" />
   <link href="/css/work-sans.css" rel="stylesheet">
+
+  {% if page.image %}
+  {% assign page_image = page.image %}
+  {% else %}
+  {% assign page_image = "thebooks/thumbs/02-LIMITED-EDITION-cover-b_a.jpg" | prepend: site.url %}
+  {% endif %}
+  {% assign page_title = page.title | default: site.title %}
+  <meta property="og:image" content="{{ page_image }}"/>
+  <meta property="og:title" content="{{ page_title | escape }}"/>
+  <meta property="og:url" content="{{ page.url | prepend: site.url }}"/>
+  <meta property="og:description" content="{{ description | escape }}">
+
+  {% if page.image %}
+  {% assign twitter_card = "summary_large_image" %}
+  {% else %}
+  {% assign twitter_card = "summary" %}
+  {% endif %}
+  <meta name="twitter:card" content="{{ twitter_card }}">
+  <meta name="twitter:image" content="{{ page_image }}"/>
+  <meta name="twitter:title" content="{{ page_title | escape }}"/>
+  <meta name="twitter:description" content="{{ description | escape }}">
+  <meta name="twitter:site" content="{{ site.twitter_username }}"/>
 </head>
 <body>
 <div id="page">
