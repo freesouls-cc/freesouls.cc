@@ -6,7 +6,7 @@ published: false
 
 LIMITED EDITION ON SALE
 
-The book <i>FREESOULS captured and released by JOI ITO,</i> was published as a Boxed Set in an edition of 50 and a soft-cover book in a print run of 1024. All numbered. 296 portraits. 8 Essays. 200 pages.
+The book <i>FREESOULS Captured and Released by JOI ITO,</i> was published as a Boxed Set in an edition of 50 and a soft-cover book in a print run of 1024. All numbered. 296 portraits. 8 Essays. 200 pages.
 
 GET THE BOOK. (${{ site.orders.book }} + sh.)<br />
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
