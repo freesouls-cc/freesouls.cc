@@ -4,7 +4,11 @@ layout: page
         <div class="page-asset asset essay">
 
     <div class="asset-header">
-        <h1 id="page-title" class="asset-name">{{ page.title }}</h1>
+      <h1 id="page-title" class="asset-name">
+        <a href="{{ page.url }}">
+          {{ page.title }}
+        </a>
+      </h1>
     </div>
 
     <div class="asset-content">
