@@ -438,6 +438,8 @@ li.on {
   font-size: 14pt;
   margin: 0;
   line-height: 110%;
+  text-transform: uppercase;
+  font-weight: 700;
   }
 .page-portrait {
   max-width: 420px;
