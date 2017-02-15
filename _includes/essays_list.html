@@ -7,7 +7,7 @@
     {% assign list_class = "" %}
     {% endif %}
     <li class="{{ list_class }}">
-      <a href="{{ post.url | prepend: site.url }}">
+      <a href="{{ post.url }}">
         <span class="listed-title">{{ post.title }}</span></a>
         <span class="byline">
         {% if post.author %}
