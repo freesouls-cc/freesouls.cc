@@ -9,7 +9,7 @@ html {
 body {
   min-height: 100%;
   letter-spacing: 0;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-feature-settings: "ss01" 1, "ss02" 1;
   font-weight: 400;
   background-color: #F8F8F8;
