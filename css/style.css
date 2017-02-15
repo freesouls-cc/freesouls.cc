@@ -15,6 +15,15 @@ body {
   background-color: #F8F8F8;
   color: #333333;
   }
+h1,
+h2,
+h3,
+.home-title,
+.freesouls,
+#freesoul-featured .name,
+.buy-now .book-price {
+  font-family: "Work Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+}
 pre {
   margin-bottom: 1em;
   border-left: 0.3rem solid #FF3F90;
