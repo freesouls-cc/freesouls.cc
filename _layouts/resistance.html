@@ -1,0 +1,42 @@
+---
+layout: page
+collection: Creative Resistance
+---
+
+<div class="asset-header">
+  <a href="/creative-resistance">
+    <h1 id="page-title" class="asset-name">Creative Resistance</h1>
+  </a>
+</div>
+
+<p>
+  Stories from Freesouls.
+  <a href="{% post_url 2017-03-15-freebassel5years %}">
+    Read the blog post.
+  </a>
+</p>
+
+<div>
+  <p>
+    <a href="{{ page.url }}">
+      {{ page.title }}
+    </a>
+  </p>
+<p>
+  <a id="pic" href="{{ page.portrait }}" title="{{ page.title }}">
+    <img alt="{{ page.title }}" src="{{ page.image }}" class="page-portrait">
+  </a>
+</p>
+
+{{ content }}
+
+{% if page.note %}
+<p class="details">
+  {{ page.note }}
+  {% for link in page.links %}
+  {{ link.name }}:
+  <a href="{{ link.url }}">{{ link.url | remove_first: "https://" | remove_first: "http://" }}</a>
+  {% endfor %}
+</p>
+{% endif %}
+</div>

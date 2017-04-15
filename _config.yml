@@ -43,6 +43,8 @@ collections:
     output: true
   needrelease:
     output: true
+  resistance:
+    output: true
 
 defaults:
   - scope:
@@ -93,3 +95,9 @@ defaults:
     values:
       layout: needrelease
       permalink: pic-unreleased/:title/
+  - scope:
+      path: ""
+      type: resistance
+    values:
+      layout: resistance
+      permalink: /creative-resistance/:title.html

@@ -1,11 +1,13 @@
 ---
 layout: page
 title: Creative Resistance
-collection: Volume 2
+collection: Resistance
 permalink: creative-resistance/
 ---
 <div class="asset-header">
-  <h1 id="page-title" class="asset-name">Creative Resistance</h1>
+  <a href="/creative-resistance">
+    <h1 id="page-title" class="asset-name">Creative Resistance</h1>
+  </a>
 </div>
 
 <p>
@@ -15,26 +17,23 @@ permalink: creative-resistance/
   </a>
 </p>
 
-{% for subject in site.data.resistance %}
-<div id="{{ subject.name | slugify }}"
+{% for post in site.resistance %}
+<div>
   <p>
-    <a href="#{{ subject.name | slugify}}">
-      {{ subject.name }}
+    <a href="{{ post.url }}">
+      {{ post.title }}
     </a>
   </p>
 <p>
-  <a id="pic" href="{{ subject.portrait }}" title="{{ subject.name }}">
-    <img alt="{{ subject.name }}" src="{{ subject.image }}" class="page-portrait">
+  <a id="pic" href="{{ post.portrait }}" title="{{ post.name }}">
+    <img alt="{{ post.name }}" src="{{ post.image }}" class="page-portrait">
   </a>
 </p>
-<p>{{ subject.story }}</p>
-{% if subject.note %}
-<p class="details">
-  {{ subject.note }}
-  {% if subject.url %}
-  <a href="{{ subject.url }}">{{ subject.url }}</a>
-  {% endif %}
-</p>
-{% endif %}
+<blockquote>
+  <h2>
+    {{ post.quote }}
+    &mdash;{{ post.title }}
+  </h2>
+</blockquote>
 </div>
 {% endfor %}
