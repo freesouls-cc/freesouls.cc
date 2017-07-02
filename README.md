@@ -22,7 +22,7 @@ bundle exec jekyll build
 
 Update photo data and templates:
 
-* Copy `config/config-sample.rb` to `config/sample.rb` and add API
+* Copy `config/config-sample.rb` to `config/config.rb` and add API
   keys.
 
 ```sh
