@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "preinstall": "rm -Rf vendor/Work-Sans",
-    "install": "git clone --depth 1 https://github.com/weiweihuanghuang/Work-Sans.git vendor/Work-Sans",
+    "install": "wget -nc -P vendor https://github.com/weiweihuanghuang/Work-Sans/archive/refs/tags/v1.6.zip && unzip -n vendor/v1.6.zip -d vendor",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
