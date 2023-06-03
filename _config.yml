@@ -101,3 +101,15 @@ defaults:
     values:
       layout: resistance
       permalink: /creative-resistance/:title.html
+
+exclude:
+   - config
+   - Gemfile
+   - Gemfile.lock
+   - lib
+   - LICENSE.txt
+   - package-lock.json
+   - package.json
+   - Rakefile
+   - README.md
+   - vendor/bundle
