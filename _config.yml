@@ -108,8 +108,6 @@ exclude:
    - Gemfile.lock
    - lib
    - LICENSE.txt
-   - package-lock.json
-   - package.json
    - Rakefile
    - README.md
    - vendor/bundle
